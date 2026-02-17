@@ -26,7 +26,7 @@ export default function EspaciosCarousel({ imagenes, nombre }) {
   };
 
   return (
-    <div className="relative h-full min-h-[400px] flex items-center justify-center group">
+    <div className="relative isolate w-full h-full min-h-0 overflow-hidden flex items-center justify-center group">
       <div className="relative w-full h-full rounded-2xl overflow-hidden">
         {imagenes.map((imagen, index) => (
           <div

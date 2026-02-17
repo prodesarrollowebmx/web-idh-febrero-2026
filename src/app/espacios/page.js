@@ -34,13 +34,13 @@ export default function EspaciosPage() {
       <section className="max-w-6xl mx-auto px-4 pb-16">
         <div className="grid gap-8">
           {espaciosData.espacios.map((espacio) => (
-            <article key={espacio.id} className="glass-card rounded-3xl overflow-hidden">
+            <article key={espacio.id} className="glass-card rounded-3xl overflow-hidden flex flex-col md:block">
               {/* Carrusel en mobile */}
-              <div className="md:hidden h-64">
+              <div className="md:hidden h-64 overflow-hidden relative z-0">
                 <EspaciosCarousel imagenes={espacio.imagenes} nombre={espacio.nombre} />
               </div>
               
-              <div className="grid md:grid-cols-[1fr_1.2fr] gap-0">
+              <div className="grid md:grid-cols-[1fr_1.2fr] gap-0 relative z-10">
                 {/* Contenido */}
                 <div className="p-8 space-y-6 flex flex-col justify-between">
                   <div>
