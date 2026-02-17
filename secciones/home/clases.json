@@ -1,0 +1,35 @@
+{
+  "titulo": "Clases para cada momento",
+  "subtitulo": "Practica",
+  "descripcion": "Grupos pequenos, acompanamiento cercano y una propuesta que equilibra movimiento, meditacion y estudio.",
+  "clases": [
+    {
+      "id": "hatha-yoga",
+      "titulo": "Hatha yoga",
+      "descripcion": "Bases conscientes, respiracion y alineacion para todos los niveles.",
+      "icono": "*",
+      "imagen": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop"
+    },
+    {
+      "id": "pilates",
+      "titulo": "Pilates",
+      "descripcion": "Secuencias dinamicas para activar la energia y la presencia.",
+      "icono": "*",
+      "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+    },
+    {
+      "id": "yoga-adulto",
+      "titulo": "Yoga adulto mayor",
+      "descripcion": "Secuencias dinamicas para activar la energia y la presencia.",
+      "icono": "*",
+      "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+    },
+    {
+      "id": "vinyasa-fluido",
+      "titulo": "Vinyasa fluido",
+      "descripcion": "Secuencias dinamicas para activar la energia y la presencia.",
+      "icono": "*",
+      "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+    }
+  ]
+}

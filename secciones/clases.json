@@ -1,0 +1,228 @@
+{
+  "subtitulo": "Clases",
+  "titulo": "Practicas guiadas para cada etapa",
+  "descripcion": "Encuentra el ritmo que necesitas. Clases con cupo limitado, enfoque individual y momentos de meditación.",
+  "sedes": [
+    {
+      "id": "centro",
+      "nombre": "Sede Compañia",
+      "direccion": "Av. Principal 123",
+      "mapaUrl": "https://www.google.com/maps/place/IDH+YOGA/@-33.4393021,-70.6582785,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c5af76fa03a7:0xd763092aa12d06ed!8m2!3d-33.4393021!4d-70.6582785!16s%2Fg%2F1w_vph3t?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "id": "vergara",
+      "nombre": "Sede Vergara",
+      "direccion": "Calle 45 890",
+      "mapaUrl": "https://www.google.com/maps/place/IDH+YOGA+VERGARA/@-33.4550769,-70.6636644,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c5001aab9705:0xa1c3748f30f3ddee!8m2!3d-33.4550769!4d-70.6610895!16s%2Fg%2F11w7bwqzbp?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+    }
+  ],
+  "ctas": [
+    {
+      "texto": "Reserva tu lugar",
+      "url": "/contacto",
+      "tipo": "primario"
+    },
+    {
+      "texto": "Reservar horarios",
+      "url": "/contacto",
+      "tipo": "secundario"
+    }
+  ],
+  "clases": [
+    {
+      "id": "hatha-c-1",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Martes y jueves - 11:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "hatha-c-2",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Lunes, martes, miércoles y jueves - 18:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "hatha-c-3",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Lunes, martes, miércoles y jueves - 19:15 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "hatha-c-4",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Jueves - 13:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "yoga-mayor",
+      "titulo": "Yoga adulto mayor",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Martes y jueves - 12:15 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "pilates",
+      "titulo": "Pilates",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Martes y jueves - 13:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "pilates-1",
+      "titulo": "Pilates",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Sábado - 11:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "pilates-2",
+      "titulo": "Pilates",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Lunes y miércoles - 19:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "yoga-intensivo",
+      "titulo": "Yoga Intensivo",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Sábado - 11:00 hrs.",
+      "duracion": "120 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "yoga-infantil",
+      "titulo": "Yoga para niños",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Sábado - 11:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "hatha-v-1",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "vergara",
+      "horario": "Lunes y miércoles - 18:45 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "hatha-v-2",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "vergara",
+      "horario": "Martes, jueves y viernes - 19:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "hatha-v-3",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "vergara",
+      "horario": "Lunes y miércoles - 20:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "hatha-v-4",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "vergara",
+      "horario": "Martes, jueves y viernes - 20:15 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "yoga-embarazada",
+      "titulo": "Yoga para embarazadas",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
+      "sedeId": "centro",
+      "horario": "Jueves - 19:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "subtitulo": "Agenda",
+  "titulo": "Horarios semanales",
+  "descripcion": "Practicas presenciales y online. Consulta disponibilidad y reserva con anticipacion.",
+  "sedes": [
+    {
+      "id": "centro",
+      "nombre": "Sede Compañia"
+    },
+    {
+      "id": "vergara",
+      "nombre": "Sede Vergara"
+    }
+  ],
+  "horariosPorSede": [
+    {
+      "sedeId": "centro",
+      "horarios": [
+        {
+          "dia": "Lunes",
+          "detalle": "07:00 Vinyasa - 19:30 Restaurativo",
+          "homeActivo": false
+        },
+        {
+          "dia": "Martes",
+          "detalle": "08:30 Hatha",
+          "homeActivo": true
+        },
+        {
+          "dia": "Miercoles",
+          "detalle": "07:00 Vinyasa - 20:00 Meditacion",
+          "homeActivo": true
+        },
+        {
+          "dia": "Jueves",
+          "detalle": "08:30 Hatha - 19:30 Restaurativo",
+          "homeActivo": true
+        },
+        {
+          "dia": "Sabado",
+          "detalle": "09:00 Taller mensual",
+          "homeActivo": true
+        }
+      ]
+    },
+    {
+      "sedeId": "vergara",
+      "horarios": [
+        {
+          "dia": "Lunes",
+          "detalle": "18:00 Hatha",
+          "homeActivo": true
+        },
+        {
+          "dia": "Martes",
+          "detalle": "18:00 Prenatal",
+          "homeActivo": true
+        },
+        {
+          "dia": "Miercoles",
+          "detalle": "19:00 Yin Yoga",
+          "homeActivo": true
+        },
+        {
+          "dia": "Jueves",
+          "detalle": "19:30 Restaurativo",
+          "homeActivo": true
+        },
+        {
+          "dia": "Sabado",
+          "detalle": "10:00 Clase abierta",
+          "homeActivo": true
+        }
+      ]
+    }
+  ]
+}

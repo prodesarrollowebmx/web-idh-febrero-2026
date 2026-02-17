@@ -1,0 +1,95 @@
+{
+  "subtitulo": "Espacios",
+  "titulo": "Renta de Espacios",
+  "descripcion": "Espacios versátiles y equipados para tus clases, eventos o retiros. Ambientes diseñados para la práctica y el bienestar.",
+  "espacios": [
+    {
+      "id": "salon-principal",
+      "nombre": "Salón Principal",
+      "sede": "centro",
+      "descripcion": "Espacio luminoso y acogedor, ideal para clases regulares y talleres.",
+      "capacidad": "30 personas",
+      "metros": "80 m²",
+      "caracteristicas": [
+        "Pisos de madera",
+        "Espejos de pared",
+        "Ventilation natural",
+        "Equipo de audio"
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1518611505868-48510c2e2b3d?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop"
+      ],
+      "horarios": "Disponible de lunes a viernes 6:00 - 22:00",
+      "precio": "$300 MXN/hora"
+    },
+    {
+      "id": "sala-meditacion",
+      "nombre": "Sala de Meditación",
+      "sede": "centro",
+      "descripcion": "Espacio íntimo y tranquilo, perfecto para sesiones de meditación y yin yoga.",
+      "capacidad": "15 personas",
+      "metros": "40 m²",
+      "caracteristicas": [
+        "Iluminación ajustable",
+        "Aislamiento acústico",
+        "Cojines y apoyos",
+        "Difusor de aromas"
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&h=400&fit=crop"
+      ],
+      "horarios": "Disponible de lunes a domingo 7:00 - 21:00",
+      "precio": "$150 MXN/hora"
+    },
+    {
+      "id": "espacio-flexible",
+      "nombre": "Espacio Flexible Vergara",
+      "sede": "vergara",
+      "descripcion": "Espacio versátil que se adapta a diferentes necesidades: clases, retiros, eventos.",
+      "capacidad": "25 personas",
+      "metros": "70 m²",
+      "caracteristicas": [
+        "Paredes móviles",
+        "Pisos antideslizantes",
+        "Ambiente natural",
+        "Kitchenette"
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1518611505868-48510c2e2b3d?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop"
+      ],
+      "horarios": "Disponible de lunes a sábado 6:00 - 20:00",
+      "precio": "$250 MXN/hora"
+    },
+    {
+      "id": "terraza",
+      "nombre": "Terraza Exterior",
+      "sede": "vergara",
+      "descripcion": "Espacio al aire libre para yoga, meditación y retiros en naturaleza.",
+      "capacidad": "20 personas",
+      "metros": "60 m²",
+      "caracteristicas": [
+        "Vistas naturales",
+        "Techumbre retráctil",
+        "Asientos cómodos",
+        "Bebidas y snacks"
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop"
+      ],
+      "horarios": "Disponible de lunes a domingo 7:00 - 19:00",
+      "precio": "$200 MXN/hora"
+    }
+  ],
+  "cta": {
+    "texto": "Reservar Disponibilidad",
+    "url": "/contacto"
+  }
+}

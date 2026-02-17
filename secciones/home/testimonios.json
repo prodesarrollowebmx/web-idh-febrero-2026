@@ -1,0 +1,40 @@
+{
+  "subtitulo": "Voces",
+  "titulo": "Testimonios",
+  "cta": {
+    "texto": "Sumate a la comunidad",
+    "url": "/contacto"
+  },
+  "testimonios": [
+    {
+      "id": 1,
+      "nombre": "Fernanda R.",
+      "comentario": "El espacio se siente cuidado. Me ayudo a sostener un ritmo mas amable con mi cuerpo."
+    },
+    {
+      "id": 2,
+      "nombre": "Diego M.",
+      "comentario": "Las clases estan muy bien guiadas. Se nota la formacion y el enfoque humano."
+    },
+    {
+      "id": 3,
+      "nombre": "Lucia P.",
+      "comentario": "El diplomado me dio herramientas profundas para ensenar con confianza."
+    },
+    {
+      "id": 4,
+      "nombre": "Andrea S.",
+      "comentario": "Encontre un lugar donde puedo ser yo misma. Las maestras acompanan con mucho respeto."
+    },
+    {
+      "id": 5,
+      "nombre": "Roberto H.",
+      "comentario": "Despues de años buscando, aqui entendi que el yoga es mas que posturas. Cambie mi relacion con el estres."
+    },
+    {
+      "id": 6,
+      "nombre": "Carolina V.",
+      "comentario": "La clase prenatal me sostuvo en un momento muy vulnerable. Agradezco cada encuentro."
+    }
+  ]
+}

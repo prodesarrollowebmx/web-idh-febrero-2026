@@ -1,0 +1,171 @@
+{
+  "titulo": "Talleres abiertos",
+  "descripcion": "Programas intensivos para profundizar en areas especificas de la practica. Cupos limitados y acompanamiento cercano.",
+  "cursos": [
+    {
+      "id": "taller-respiracion",
+      "titulo": "Taller de respiracion",
+      "descripcion": "Tecnicas de pranayama aplicadas a estres, energia y enfoque mental.",
+      "contenidoLargo": "Aprende técnicas ancestrales de respiración (pranayama) de la tradición del yoga, adaptadas y comprobadas científicamente. Exploraremos cómo el trabajo respiratorio impacta directamente en el sistema nervioso, la energía vital y tu capacidad de mantener el enfoque mental.",
+      "objetivos": [
+        "Dominar las principales técnicas de pranayama",
+        "Entender la conexión entre respiración y sistema nervioso",
+        "Aplicar técnicas prácticas para gestionar estrés y ansiedad",
+        "Elevar tu energía vital de forma controlada"
+      ],
+      "contenido": [
+        "Introducción a la fisiología de la respiración",
+        "Nadi Shodhana (respiración alterna)",
+        "Ujjayi (respiración del océano)",
+        "Bhastrika (respiración del fuelle)",
+        "Anulom Vilom y variaciones",
+        "Aplicación práctica en diferentes situaciones"
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 15,
+      "fecha": "15 de febrero",
+      "hora": "10:00 AM - 2:00 PM",
+      "duracion": "4 horas",
+      "instructor": "Ana Martinez",
+      "bioInstructor": "Maestra de yoga certificada con 15 años de experiencia en pranayama y filosofía yóguica.",
+      "precio": "$800 MXN",
+      "imagen": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop",
+      "sedes": ["Sede Compañia", "Sede Sur"],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
+      "id": "yoga-filosofia",
+      "titulo": "Yoga y filosofia",
+      "descripcion": "Textos esenciales, reflexion guiada y practicas contemplativas.",
+      "contenidoLargo": "Un viaje profundo a través de los textos fundamentales del yoga. Exploraremos la sabiduría contenida en los Yoga Sutras, Bhagavad Gita y Upanishads con prácticas meditativas que te ayudarán a integrar esta filosofía en tu vida cotidiana.",
+      "objetivos": [
+        "Comprender la filosofía fundamental del yoga",
+        "Explorar textos clásicos yóguicos",
+        "Integrar la filosofía en la práctica personal",
+        "Desarrollar una práctica contemplativa significativa"
+      ],
+      "contenido": [
+        "Introducción al Yoga Sutras de Patanjali",
+        "Los 8 Miembros del Yoga (Ashtanga)",
+        "Bhagavad Gita: reflexiones sobre la acción",
+        "Upanishads: el conocimiento de lo supremo",
+        "Práctica de meditación y reflexión guiada",
+        "Integración de la sabiduría ancestral"
+      ],
+      "requisitos": "Experiencia previa en yoga es recomendada.",
+      "nivel": "Intermedio",
+      "cupos": 12,
+      "fecha": "22 de febrero",
+      "hora": "4:00 PM - 7:00 PM",
+      "duracion": "3 sesiones de 2 horas",
+      "instructor": "Carlos Ruiz",
+      "bioInstructor": "Profesor de filosofía y yoga con especialidad en textos clásicos. Estudió en la India durante 5 años.",
+      "precio": "$1,200 MXN",
+      "imagen": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop",
+      "sedes": ["Sede Compañia"],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
+      "id": "alineacion-ajustes",
+      "titulo": "Alineacion y ajustes",
+      "descripcion": "Biomecanica, seguridad y herramientas para docentes.",
+      "contenidoLargo": "Especializado para instructores y practicantes avanzados. Aprenderás principios de biomecánica aplicada al yoga, técnicas de ajustes seguros, cuándo intervenir y cuándo no, y cómo personalizar la práctica para diferentes estudiantes.",
+      "objetivos": [
+        "Entender los principios biomecánicos del cuerpo humano",
+        "Dominar técnicas seguras de ajustes manuales",
+        "Identificar y corregir desalineaciones comunes",
+        "Desarrollar sensibilidad propioceptiva para dar feedback efectivo"
+      ],
+      "contenido": [
+        "Anatomía funcional aplicada a yoga",
+        "Principios de alineación en las asanas",
+        "Técnicas de ajuste manual seguuras",
+        "Uso de props y modificaciones",
+        "Prevención de lesiones comunes",
+        "Practica supervisada con retroalimentación"
+      ],
+      "requisitos": "Mínimo 2 años de práctica regular o certificación como instructor.",
+      "nivel": "Avanzado",
+      "cupos": 10,
+      "fecha": "02 de marzo",
+      "hora": "9:00 AM - 3:00 PM",
+      "duracion": "6 horas",
+      "instructor": "Laura Gomez",
+      "bioInstructor": "Instructora certificada E-RYT 500 con formación en anatomía clínica y especialidad en correcciones biomecánicas.",
+      "precio": "$1,500 MXN",
+      "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&h=400&fit=crop",
+      "sedes": ["Sede Compañia", "Sede Sur"],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
+      "id": "meditacion-mindfulness",
+      "titulo": "Meditacion y Mindfulness",
+      "descripcion": "Practicas de atencion plena para reducir ansiedad y cultivar presencia.",
+      "contenidoLargo": "Un programa de 4 semanas diseñado para desarrollar una práctica de meditación consistente. Aprenderás diferentes técnicas de mindfulness respaldadas por investigación científica, perfecto para principiantes o para profundizar tu práctica ya existente.",
+      "objetivos": [
+        "Establecer una práctica meditativa diaria",
+        "Reducir ansiedad y estrés a través de mindfulness",
+        "Cultivar presencia y awareness en actividades cotidianas",
+        "Desarrollar compasión y aceptación"
+      ],
+      "contenido": [
+        "Fundamentos de meditación y mindfulness",
+        "Body scan y conciencia corporal",
+        "Meditación de enfoque y concentración",
+        "Práctica de caminar consciente",
+        "Meditación de bondad amorosa (Metta)",
+        "Integración en la vida diaria"
+      ],
+      "requisitos": "Ninguno. Ideal para principiantes.",
+      "nivel": "Todos",
+      "cupos": 20,
+      "fecha": "10 de marzo",
+      "hora": "6:00 PM - 7:30 PM",
+      "duracion": "4 semanas, 1.5 hrs/semana",
+      "instructor": "Sofia Torres",
+      "bioInstructor": "Meditadora certificada con formación en Mindfulness-Based Stress Reduction (MBSR).",
+      "precio": "$1,800 MXN",
+      "imagen": "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=600&h=400&fit=crop",
+      "sedes": ["Sede Compañia"],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
+      "id": "yoga-terapeutico",
+      "titulo": "Yoga terapeutico",
+      "descripcion": "Adaptaciones para lesiones comunes y condiciones especificas.",
+      "contenidoLargo": "Aprende a adaptar y modificar la práctica de yoga para personas con lesiones o condiciones de salud específicas. Ideal para instructores que desean expandir su oferta y para practicantes que buscan una práctica segura y rehabilitativa.",
+      "objetivos": [
+        "Comprender las causas raíz de lesiones comunes",
+        "Dominar modificaciones y adaptaciones seguras",
+        "Crear secuencias terapéuticas personalizadas",
+        "Colaborar efectivamente con profesionales de la salud"
+      ],
+      "contenido": [
+        "Yoga para dolores de espalda y cervicales",
+        "Adaptaciones para hombros lesionados",
+        "Yoga para rodillas y tobillos",
+        "Práctica durante el embarazo",
+        "Yoga para personas con artritis",
+        "Secuencias terapéuticas en profundidad"
+      ],
+      "requisitos": "Experiencia como instructor de yoga o estudiante avanzado con recomendación.",
+      "nivel": "Avanzado",
+      "cupos": 8,
+      "fecha": "18 de marzo",
+      "hora": "9:00 AM - 1:00 PM (ambos días)",
+      "duracion": "8 horas en 2 dias",
+      "instructor": "Dr. Miguel Santos",
+      "bioInstructor": "Doctor en fisioterapia y maestro de yoga certificado con 20 años de experiencia en yoga terapéutico clínico.",
+      "precio": "$2,200 MXN",
+      "imagen": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop",
+      "sedes": ["Sede Compañia"],
+      "homeActivo": false,
+      "activo": false
+    }
+  ]
+}

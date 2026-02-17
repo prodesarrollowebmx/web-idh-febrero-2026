@@ -1,0 +1,63 @@
+{
+  "subtitulo": "Asesorías",
+  "titulo": "Acompañamiento personalizado",
+  "descripcion": "Sesiones individuales diseñadas para tu proceso. Profundiza en tu práctica con orientación directa.",
+  "servicios": [
+    {
+      "id": "asesoria-personal",
+      "titulo": "Asesoría Personal",
+      "descripcion": "Sesión individual de 60 minutos para explorar tu práctica, necesidades y objetivos.",
+      "duracion": "60 min",
+      "precio": "$400 MXN",
+      "incluye": [
+        "Evaluación inicial",
+        "Propuesta personalizada",
+        "Seguimiento",
+        "Recomendaciones prácticas"
+      ]
+    },
+    {
+      "id": "seguimiento-mensual",
+      "titulo": "Seguimiento Mensual",
+      "descripcion": "Paquete de 4 sesiones mensuales para mantener tu progreso y ajustar según necesites.",
+      "duracion": "60 min cada una",
+      "precio": "$1,200 MXN/mes",
+      "incluye": [
+        "4 sesiones mensuales",
+        "Plan personalizado",
+        "Soporte entre sesiones",
+        "Acceso a materiales"
+      ]
+    },
+    {
+      "id": "asesoria-grupal",
+      "titulo": "Asesoría Grupal",
+      "descripcion": "Sesión para grupos de 3 a 6 personas interesadas en una temática específica.",
+      "duracion": "90 min",
+      "precio": "$600 MXN por persona",
+      "incluye": [
+        "Temática a medida",
+        "Dinámicas interactivas",
+        "Material impreso",
+        "Certificado"
+      ]
+    },
+    {
+      "id": "especializacion",
+      "titulo": "Especialización",
+      "descripcion": "Programa intensivo de 8 sesiones para profundizar en un tema específico.",
+      "duracion": "60 min cada una",
+      "precio": "$2,800 MXN",
+      "incluye": [
+        "8 sesiones estructuradas",
+        "Educación teórica y práctica",
+        "Evaluación final",
+        "Certificado de especialización"
+      ]
+    }
+  ],
+  "cta": {
+    "texto": "Reservar Asesoría",
+    "url": "/contacto"
+  }
+}
