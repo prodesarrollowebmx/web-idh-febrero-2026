@@ -21,7 +21,7 @@ export default function Nav() {
                 priority
               />
               <span className="hidden 2xl:inline text-xs uppercase tracking-[0.2em] text-zinc-500">
-                Escuela y Comunidad
+                Escuela y Comunidades
               </span>
             </Link>
           </div>
