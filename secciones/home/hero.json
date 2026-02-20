@@ -16,13 +16,13 @@
   ],
   "claseDestacada": {
     "etiqueta": "Clase del dia",
-    "nombre": "Vinyasa suave",
+    "nombre": "Pilates",
     "descripcion": "Secuencia fluida para despertar el cuerpo y ordenar la mente.",
-    "horario": "19:00",
-    "sala": "Sala Bosque",
+    "horario": "Sábados, 11:00 hrs.",
+    "sala": "Instituto Compañia",
     "duracion": "60 min"
   },
-  "anuncio": "Nuevo ciclo de diplomado: Marzo 2026",
-  "imagenHero": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=1000&fit=crop",
+  "anuncio": "Nuevo ciclo de diplomado de Instructor de Yoga: Marzo 2026",
+  "imagenHero": "https://images.unsplash.com/photo-1579454566790-f9e5697ddf36?w=800&h=1000&fit=crop",
   "imagenSecundaria": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop"
 }

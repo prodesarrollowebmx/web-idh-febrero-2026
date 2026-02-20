@@ -9,6 +9,10 @@ import talleresData from "../../../../secciones/talleres.json";
 export default function TallerDetailPage({ params }) {
   const { id } = use(params);
   const taller = talleresData.cursos.find((t) => t.id === id);
+  const actividadGratuita =
+    typeof taller?.gratuita === "boolean"
+      ? taller.gratuita
+      : (taller?.precio || "").toLowerCase().includes("gratis");
 
   if (!taller) {
     notFound();
@@ -43,6 +47,11 @@ export default function TallerDetailPage({ params }) {
               <div>
                 <span className="text-white/70">Instructor:</span> {taller.instructor}
               </div>
+              {actividadGratuita && (
+                <div>
+                  <span className="text-white/70">Actividad:</span> Actividad gratuita
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -112,6 +121,12 @@ export default function TallerDetailPage({ params }) {
                 <div className="font-display text-lg text-zinc-900">{taller.nivel}</div>
               </div>
 
+              {/* Modalidad */}
+              <div>
+                <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-2">Modalidad</div>
+                <div className="font-display text-lg text-zinc-900">{taller.modalidad || "Por confirmar"}</div>
+              </div>
+
               {/* Cupos */}
               <div>
                 <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-2">Cupos disponibles</div>
@@ -138,8 +153,18 @@ export default function TallerDetailPage({ params }) {
 
               {/* Precio */}
               <div className="border-t border-white/70 pt-6">
-                <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-3">Precio</div>
-                <div className="font-display text-3xl text-[#5b7fa8] mb-6">{taller.precio}</div>
+                {actividadGratuita && (
+                  <>
+                    <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-2">Actividad</div>
+                    <div className="font-display text-lg text-zinc-900 mb-4">Actividad gratuita</div>
+                  </>
+                )}
+                {!actividadGratuita && (
+                  <>
+                    <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-3">Precio</div>
+                    <div className="font-display text-3xl text-[#5b7fa8] mb-6">{taller.precio}</div>
+                  </>
+                )}
                 <Link
                   href="/contacto"
                   className="inline-flex items-center justify-center w-full rounded-full bg-[#5b7fa8] px-6 py-3 text-sm uppercase tracking-[0.2em] text-white hover:bg-[#4a6a94] transition-colors"

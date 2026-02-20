@@ -13,6 +13,15 @@ function getSedePreviewImageById(sedeId) {
   return previewsBySede[sedeId] || "/maps/centro.svg";
 }
 
+function getSedeLabelById(sedeId, fallbackName = "") {
+  const labelsBySede = {
+    centro: "Sede Compañía",
+    vergara: "Sede Vergara",
+  };
+
+  return labelsBySede[sedeId] || fallbackName || "Sede";
+}
+
 export default function Footer() {
   const sedes = useMemo(() => contactoData.sedes || [], []);
   const [selectedSedeId, setSelectedSedeId] = useState(sedes[0]?.id || "");
@@ -22,6 +31,10 @@ export default function Footer() {
   );
   const selectedSedeMapPreviewSrc = useMemo(
     () => getSedePreviewImageById(selectedSede?.id),
+    [selectedSede]
+  );
+  const selectedSedeLabel = useMemo(
+    () => getSedeLabelById(selectedSede?.id, selectedSede?.nombre),
     [selectedSede]
   );
   const selectedSedeGoogleMapsLink = selectedSede?.mapaUrl || "";
@@ -92,7 +105,9 @@ export default function Footer() {
           <div className="space-y-4">
             {contactoData.sedes.map((sede) => (
               <div key={sede.id} className="text-sm cursor-pointer">
-                <div className="font-semibold text-zinc-900">{sede.nombre}</div>
+                <div className="font-semibold text-zinc-900">
+                  {getSedeLabelById(sede.id, sede.nombre)}
+                </div>
                 <p className="text-zinc-600 text-xs mt-1">{sede.direccion}</p>
                 <p className="text-zinc-600 text-xs">{sede.ciudad}</p>
               </div>
@@ -116,7 +131,7 @@ export default function Footer() {
                     : "border border-sky-200 text-zinc-600 hover:bg-sky-50 hover:text-zinc-900"
                 }`}
               >
-                {sede.nombre}
+                {getSedeLabelById(sede.id, sede.nombre)}
               </button>
             ))}
           </div>
@@ -127,14 +142,17 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block h-full w-full relative"
-                aria-label="Abrir ubicación en Google Maps"
+                aria-label={`Abrir ${selectedSedeLabel} en Google Maps`}
               >
                 <img
                   src={selectedSedeMapPreviewSrc}
-                  alt={`Mapa de ${selectedSede?.nombre || "la sede"}`}
+                  alt={`Mapa de ${selectedSedeLabel}`}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
+                <div className="absolute top-2 left-2 rounded-full bg-white/90 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-zinc-700">
+                  {selectedSedeLabel}
+                </div>
                 <div className="absolute bottom-2 right-2 rounded-full bg-white/90 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-zinc-700">
                   Abrir en Google Maps
                 </div>

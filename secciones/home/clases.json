@@ -13,23 +13,23 @@
     {
       "id": "pilates",
       "titulo": "Pilates",
-      "descripcion": "Secuencias dinamicas para activar la energia y la presencia.",
+      "descripcion": "En Pilates unimos respiración y control para fortalecer el cuerpo y mejorar la postura.",
       "icono": "*",
-      "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+      "imagen": "https://images.unsplash.com/photo-1655712779546-a1c0ea613cd8?w=400&h=300&fit=crop"
     },
     {
       "id": "yoga-adulto",
       "titulo": "Yoga adulto mayor",
-      "descripcion": "Secuencias dinamicas para activar la energia y la presencia.",
+      "descripcion": "En yoga para adultos mayores conectamos respiración y movimiento suave para mejorar la movilidad, el equilibrio y el bienestar.",
       "icono": "*",
-      "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+      "imagen": "https://images.unsplash.com/photo-1718862403436-616232ec6005?w=400&h=300&fit=crop"
     },
     {
-      "id": "vinyasa-fluido",
-      "titulo": "Vinyasa fluido",
-      "descripcion": "Secuencias dinamicas para activar la energia y la presencia.",
+      "id": "yoga-niños",
+      "titulo": "Yoga para niños",
+      "descripcion": "En yoga para niños exploramos el movimiento y la respiración de forma divertida para fortalecer el cuerpo, mejorar la concentración y fomentar la calma.",
       "icono": "*",
-      "imagen": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+      "imagen": "https://images.unsplash.com/photo-1655842556563-2c28adb3fcc5?w=400&h=300&fit=crop"
     }
   ]
 }

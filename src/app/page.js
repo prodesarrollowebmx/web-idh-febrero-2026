@@ -180,7 +180,7 @@ export default function Home() {
         <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] items-center">
           <div className="space-y-6">
             <p className="text-xs uppercase tracking-[0.3em] text-zinc-500">Talleres</p>
-            <h2 className="section-title text-3xl md:text-4xl">Talleres y diplomados abiertos</h2>
+            <h2 className="section-title text-3xl md:text-4xl">Talleres y cursos abiertos</h2>
             <p className="text-sm text-zinc-600 leading-relaxed">
               Programas cortos para profundizar en respiracion, filosofia y anatomia,
               abiertos a toda la comunidad.
@@ -205,6 +205,11 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-6">
+                  {taller.gratuita && (
+                    <div className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-700 mb-3">
+                      Actividad gratuita
+                    </div>
+                  )}
                   <h3 className="font-display text-2xl text-zinc-900">{taller.titulo}</h3>
                   <p className="text-sm text-zinc-600 leading-relaxed mt-3">{taller.descripcion}</p>
                   <div className="mt-4 text-xs uppercase tracking-[0.2em] text-zinc-500">

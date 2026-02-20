@@ -25,6 +25,7 @@ export default function TalleresSearcher({ talleres }) {
       taller.instructor,
       taller.hora,
       taller.nivel,
+      taller.modalidad,
     ];
 
     const matchFields = fieldsToMatch.some(
@@ -37,6 +38,14 @@ export default function TalleresSearcher({ talleres }) {
 
     return matchFields || matchSede;
   });
+
+  const isActividadGratuita = (taller) => {
+    if (typeof taller.gratuita === "boolean") {
+      return taller.gratuita;
+    }
+
+    return (taller.precio || "").toLowerCase().includes("gratis");
+  };
 
   return (
     <div className="space-y-8">
@@ -75,6 +84,11 @@ export default function TalleresSearcher({ talleres }) {
                 <div className="text-xs uppercase tracking-[0.3em] text-zinc-500">
                   {taller.fecha}
                 </div>
+                {isActividadGratuita(taller) && (
+                  <div className="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-zinc-700">
+                    Actividad gratuita
+                  </div>
+                )}
                 <h2 className="font-display text-2xl text-zinc-900">{taller.titulo}</h2>
                 <p className="text-sm text-zinc-600 leading-relaxed">
                   {taller.descripcion}
@@ -85,6 +99,7 @@ export default function TalleresSearcher({ talleres }) {
                   <div>
                     Sede: {(taller.sedes || []).length > 0 ? taller.sedes.join(" • ") : "Por confirmar"}
                   </div>
+                  {isActividadGratuita(taller) && <div>Actividad gratuita</div>}
                   <div className="pt-2 flex gap-2">
                     <Link
                       href={`/talleres/${taller.id}`}
