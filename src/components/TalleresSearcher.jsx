@@ -109,11 +109,21 @@ export default function TalleresSearcher({ talleres }) {
                     </Link>
                     <Link
                       href="/contacto"
-                      className="flex-1 flex items-center justify-center rounded-full bg-[#5b7fa8] px-3 py-2 text-xs uppercase tracking-[0.2em] text-white hover:bg-[#4a6a94] transition-colors whitespace-nowrap"
+                      className="flex-1 flex items-center justify-center rounded-full bg-[#5b7fa8] px-3 py-2 text-xs uppercase tracking-[0.12em] text-center leading-tight text-white hover:bg-[#4a6a94] transition-colors"
                     >
-                      Reservar
+                      Solicitar detalle
                     </Link>
                   </div>
+                  {taller.formularioRegistro && (
+                    <a
+                      href={taller.formularioRegistro}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex w-full items-center justify-center rounded-full border border-sky-300 px-3 py-2 text-xs uppercase tracking-[0.2em] text-zinc-700 hover:bg-white/50 transition-colors whitespace-nowrap"
+                    >
+                      Registrar participación
+                    </a>
+                  )}
                 </div>
               </div>
             </article>

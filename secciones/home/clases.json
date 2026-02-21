@@ -1,12 +1,12 @@
 {
   "titulo": "Clases para cada momento",
   "subtitulo": "Practica",
-  "descripcion": "Grupos pequenos, acompanamiento cercano y una propuesta que equilibra movimiento, meditacion y estudio.",
+  "descripcion": "Grupos pequeños, acompañamiento cercano y una propuesta que equilibra movimiento, meditación y estudio.",
   "clases": [
     {
       "id": "hatha-yoga",
       "titulo": "Hatha yoga",
-      "descripcion": "Bases conscientes, respiracion y alineacion para todos los niveles.",
+      "descripcion": "Bases conscientes, respiración y alineación para todos los niveles.",
       "icono": "*",
       "imagen": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop"
     },

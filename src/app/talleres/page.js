@@ -24,7 +24,7 @@ export default function TalleresPage() {
             href="/contacto"
             className="rounded-full bg-[#5b7fa8] px-6 py-3 text-sm uppercase tracking-[0.2em] text-white"
           >
-            Reservar cupo
+            Consultar detalle
           </Link>
           <Link
             href="/contacto"

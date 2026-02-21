@@ -45,14 +45,12 @@ export default function HorariosSearcher({ clases, sedes }) {
 
     const searchableText = normalizeText([
       clase.titulo,
-      clase.descripcion,
       clase.horario,
       clase.duracion,
       clase.nivel,
       clase.instructor,
       clase.cupo,
       sedesById[clase.sedeId]?.nombre,
-      sedesById[clase.sedeId]?.direccion,
     ].filter(Boolean).join(" "));
 
     return tokens.every((token) => searchableText.includes(token));

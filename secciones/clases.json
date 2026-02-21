@@ -14,6 +14,12 @@
       "nombre": "Sede Vergara",
       "direccion": "Calle 45 890",
       "mapaUrl": "https://www.google.com/maps/place/IDH+YOGA+VERGARA/@-33.4550769,-70.6636644,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c5001aab9705:0xa1c3748f30f3ddee!8m2!3d-33.4550769!4d-70.6610895!16s%2Fg%2F11w7bwqzbp?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "id": "online",
+      "nombre": "Online",
+      "direccion": "Modalidad virtual",
+      "mapaUrl": ""
     }
   ],
   "ctas": [
@@ -102,7 +108,7 @@
       "horario": "Martes y jueves - 13:00 hrs.",
       "duracion": "60 min",
       "nivel": "Todos los niveles",
-      "instructor": "",
+      "instructor": "Sandra",
       "cupo": "25 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
@@ -115,7 +121,7 @@
       "horario": "Sábado - 11:00 hrs.",
       "duracion": "60 min",
       "nivel": "Todos los niveles",
-      "instructor": "",
+      "instructor": "Sandra",
       "cupo": "25 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
@@ -128,7 +134,7 @@
       "horario": "Lunes y miércoles - 19:00 hrs.",
       "duracion": "60 min",
       "nivel": "Todos los niveles",
-      "instructor": "",
+      "instructor": "Sandra",
       "cupo": "25 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
@@ -220,6 +226,58 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": false
+    },
+    {
+      "id": "yoga-online-1",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y asanas para todos los niveles.",
+      "sedeId": "online",
+      "horario": "Lunes y miércoles - 18:30 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "yoga-online-2",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y asanas para todos los niveles.",
+      "sedeId": "online",
+      "horario": "Martes - 19:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+    {
+      "id": "yoga-online-3",
+      "titulo": "Hatha Yoga",
+      "descripcion": "Bases conscientes, respiración y asanas para todos los niveles.",
+      "sedeId": "online",
+      "horario": "Lunes y miércoles - 20:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "",
+      "cupo": "25 personas",
+      "precio": "$35.000 CLP/mes",
+      "activo": true
+    },
+        {
+      "id": "pilates-online-1",
+      "titulo": "Pilates",
+      "descripcion": "Fortalecimiento del cuerpo y postura.",
+      "sedeId": "online",
+      "horario": "Lunes y miércoles - 20:00 hrs.",
+      "duracion": "60 min",
+      "nivel": "Todos los niveles",
+      "instructor": "Sandra",
       "cupo": "25 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true

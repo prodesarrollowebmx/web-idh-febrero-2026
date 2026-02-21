@@ -27,8 +27,9 @@
       "bioInstructor": "Expositora en Desarrollo Humano con mas de 30 años de experiencia en meditación y filosofía yóguica.",
       "precio": "$0 CLP",
       "gratuita": true,
+      "formularioRegistro": "https://docs.google.com/forms/d/e/1FAIpQLSeC5Wqj71ytLcXww8ldHGEjBqepDY4iQ2duDpnNOxo-pUJo8A/viewform",
       "imagen": "https://images.unsplash.com/photo-1518708909080-704599b19972?w=600&h=400&fit=crop",
-      "sedes": ["Sede Compañia"],
+      "sedes": ["Online via Zoom"],
       "homeActivo": true,
       "activo": true
     }

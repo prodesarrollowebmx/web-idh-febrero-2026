@@ -1,7 +1,7 @@
 {
   "subtitulo": "Agenda",
   "titulo": "Horarios semanales",
-  "descripcion": "Practicas presenciales y online. Consulta disponibilidad y reserva con anticipacion.",
+  "descripcion": "Prácticas presenciales y online. Consulta disponibilidad y reserva con anticipación.",
   "sedes": [
     {
       "id": "centro",
@@ -18,27 +18,27 @@
       "horarios": [
         {
           "dia": "Lunes",
-          "detalle": "07:00 Vinyasa - 19:30 Restaurativo",
-          "homeActivo": false
-        },
-        {
-          "dia": "Martes",
-          "detalle": "08:30 Hatha",
+          "detalle": "18:00 Hatha Yoga - 19:00 Pilates",
           "homeActivo": true
         },
         {
-          "dia": "Miercoles",
-          "detalle": "07:00 Vinyasa - 20:00 Meditacion",
+          "dia": "Martes",
+          "detalle": "11:00 Hatha Yoga - 12:15 Yoga adulto mayor",
+          "homeActivo": true
+        },
+        {
+          "dia": "Miércoles",
+          "detalle": "19:15 Hatha Yoga",
           "homeActivo": true
         },
         {
           "dia": "Jueves",
-          "detalle": "08:30 Hatha - 19:30 Restaurativo",
+          "detalle": "13:00 Hatha yoga",
           "homeActivo": true
         },
         {
-          "dia": "Sabado",
-          "detalle": "09:00 Taller mensual",
+          "dia": "Sábado",
+          "detalle": "11:00 Yoga para niños - Yoga Intensivo",
           "homeActivo": true
         }
       ]
@@ -48,27 +48,27 @@
       "horarios": [
         {
           "dia": "Lunes",
-          "detalle": "18:00 Hatha",
+          "detalle": "18:45 Hatha Yoga",
           "homeActivo": true
         },
         {
           "dia": "Martes",
-          "detalle": "18:00 Prenatal",
+          "detalle": "20:15 Hatha Yoga",
           "homeActivo": true
         },
         {
-          "dia": "Miercoles",
-          "detalle": "19:00 Yin Yoga",
+          "dia": "Miércoles",
+          "detalle": "20:00 Hatha Yoga",
           "homeActivo": true
         },
         {
           "dia": "Jueves",
-          "detalle": "19:30 Restaurativo",
+          "detalle": "20:15 Hatha Yoga",
           "homeActivo": true
         },
         {
-          "dia": "Sabado",
-          "detalle": "10:00 Clase abierta",
+          "dia": "Viernes",
+          "detalle": "19:00 Hatha Yoga",
           "homeActivo": true
         }
       ]

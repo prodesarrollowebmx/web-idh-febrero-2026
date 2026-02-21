@@ -7,6 +7,8 @@
       "id": "asesoria-personal",
       "titulo": "Asesoría Personal",
       "descripcion": "Sesión individual de 60 minutos para explorar tu práctica, necesidades y objetivos.",
+      "imagen": "https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?w=1200&h=800&fit=crop",
+      "contenidoLargo": "Espacio de acompañamiento uno a uno para revisar tu situación actual y definir un plan claro de avance. Trabajamos sobre tus necesidades reales, resolviendo dudas puntuales y priorizando acciones concretas para tu proceso.\n\nAl finalizar, te llevas recomendaciones aplicables a tu día a día y una orientación personalizada para sostener el progreso entre sesiones.",
       "duracion": "60 min",
       "precio": "$400 MXN",
       "incluye": [
@@ -20,6 +22,8 @@
       "id": "seguimiento-mensual",
       "titulo": "Seguimiento Mensual",
       "descripcion": "Paquete de 4 sesiones mensuales para mantener tu progreso y ajustar según necesites.",
+      "imagen": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop",
+      "contenidoLargo": "Programa pensado para quienes buscan constancia, estructura y acompañamiento continuo. En cada sesión revisamos avances, ajustamos el plan y reforzamos los puntos clave para mantener una evolución sostenida.\n\nIncluye una mirada integral para adaptar el proceso a tus ritmos, objetivos y cambios del mes.",
       "duracion": "60 min cada una",
       "precio": "$1,200 MXN/mes",
       "incluye": [
@@ -33,6 +37,8 @@
       "id": "asesoria-grupal",
       "titulo": "Asesoría Grupal",
       "descripcion": "Sesión para grupos de 3 a 6 personas interesadas en una temática específica.",
+      "imagen": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&h=800&fit=crop",
+      "contenidoLargo": "Formato colaborativo para profundizar en una temática común desde una experiencia participativa. La sesión integra explicación, práctica guiada e intercambio entre participantes para enriquecer el aprendizaje.\n\nIdeal para equipos, comunidades o grupos que quieran avanzar de forma conjunta con una propuesta adaptada al contexto del grupo.",
       "duracion": "90 min",
       "precio": "$600 MXN por persona",
       "incluye": [
@@ -46,6 +52,8 @@
       "id": "especializacion",
       "titulo": "Especialización",
       "descripcion": "Programa intensivo de 8 sesiones para profundizar en un tema específico.",
+      "imagen": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&h=800&fit=crop",
+      "contenidoLargo": "Recorrido formativo en profundidad para desarrollar competencias específicas con una metodología progresiva. Cada módulo combina fundamentos teóricos con práctica aplicada para consolidar aprendizajes.\n\nEstá orientado a quienes desean un proceso más completo, con seguimiento, evaluación y cierre con resultados observables.",
       "duracion": "60 min cada una",
       "precio": "$2,800 MXN",
       "incluye": [

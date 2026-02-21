@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import asesoriaData from "../../../secciones/home/asesorias.json";
 
 export const metadata = { title: "Asesorías" };
@@ -28,6 +29,17 @@ export default function AsesoriasPage() {
         <div className="grid gap-6 md:grid-cols-2">
           {asesoriaData.servicios.map((servicio) => (
             <article key={servicio.id} className="glass-card rounded-3xl p-8 space-y-6">
+              {servicio.imagen && (
+                <div className="relative w-full h-48 rounded-2xl overflow-hidden">
+                  <Image
+                    src={servicio.imagen}
+                    alt={servicio.titulo}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
+              )}
               <div>
                 <h2 className="font-display text-2xl text-zinc-900">{servicio.titulo}</h2>
                 <p className="text-sm text-zinc-600 mt-3 leading-relaxed">
@@ -59,12 +71,20 @@ export default function AsesoriasPage() {
               </div>
 
               <div className="border-t border-white/50 pt-6">
-                <Link
-                  href="/contacto"
-                  className="inline-flex rounded-full bg-[#5b7fa8] px-4 py-2 text-sm uppercase tracking-[0.2em] text-white hover:bg-[#4a6a94] transition-colors"
-                >
-                  Reservar
-                </Link>
+                <div className="flex flex-wrap gap-3">
+                  <Link
+                    href={`/asesorias/${servicio.id}`}
+                    className="inline-flex rounded-full border border-sky-300 px-4 py-2 text-sm uppercase tracking-[0.2em] text-zinc-700 hover:bg-white/50 transition-colors"
+                  >
+                    Más información
+                  </Link>
+                  <Link
+                    href="/contacto"
+                    className="inline-flex rounded-full bg-[#5b7fa8] px-4 py-2 text-sm uppercase tracking-[0.2em] text-white hover:bg-[#4a6a94] transition-colors"
+                  >
+                    Reservar
+                  </Link>
+                </div>
               </div>
             </article>
           ))}
