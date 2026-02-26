@@ -72,19 +72,19 @@ export default function ContactoPage() {
                   {sede.horarios}
                 </p>
               </div>
+              <div>
+                <div className="text-xs uppercase tracking-[0.3em] text-white/70">Contacto</div>
+                <p className="text-sm text-white/80 mt-2">
+                  Teléfono: {sede.telefono}
+                  <br />
+                  WhatsApp: {sede.whatsapp}
+                  <br />
+                  Email: {sede.email}
+                </p>
+              </div>
             </div>
           ))}
           
-          <div className="rounded-4xl bg-[#2c4a6b] text-white p-8 space-y-4">
-            <div>
-              <div className="text-xs uppercase tracking-[0.3em] text-white/70">Contacto directo</div>
-              <p className="text-sm text-white/80 mt-2">
-                WhatsApp: {contactoData.informacion.whatsapp}
-                <br />
-                {contactoData.informacion.email}
-              </p>
-            </div>
-          </div>
         </div>
       </section>
     </main>

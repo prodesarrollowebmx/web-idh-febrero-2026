@@ -24,10 +24,11 @@ function getSedeLabelById(sedeId, fallbackName = "") {
 
 export default function Footer() {
   const sedes = useMemo(() => contactoData.sedes || [], []);
-  const [selectedSedeId, setSelectedSedeId] = useState(sedes[0]?.id || "");
+  const footerSedes = useMemo(() => sedes.filter((sede) => sede.id !== "online"), [sedes]);
+  const [selectedSedeId, setSelectedSedeId] = useState(footerSedes[0]?.id || "");
   const selectedSede = useMemo(
-    () => sedes.find((sede) => sede.id === selectedSedeId) || sedes[0],
-    [sedes, selectedSedeId]
+    () => footerSedes.find((sede) => sede.id === selectedSedeId) || footerSedes[0],
+    [footerSedes, selectedSedeId]
   );
   const selectedSedeMapPreviewSrc = useMemo(
     () => getSedePreviewImageById(selectedSede?.id),
@@ -103,7 +104,7 @@ export default function Footer() {
             Sedes
           </h4>
           <div className="space-y-4">
-            {contactoData.sedes.map((sede) => (
+            {footerSedes.map((sede) => (
               <div key={sede.id} className="text-sm cursor-pointer">
                 <div className="font-semibold text-zinc-900">
                   {getSedeLabelById(sede.id, sede.nombre)}
@@ -120,7 +121,7 @@ export default function Footer() {
             Como llegar
           </h4>
           <div className="flex flex-wrap gap-2 mb-4">
-            {sedes.map((sede) => (
+            {footerSedes.map((sede) => (
               <button
                 key={sede.id}
                 type="button"

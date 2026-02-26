@@ -1,13 +1,16 @@
 {
   "subtitulo": "Contacto",
   "titulo": "Te acompañamos en el camino",
-  "descripcion": "Escribenos para recibir horarios, precios y detalles del diplomado. Respondemos en menos de 24 horas.",
+  "descripcion": "Escribenos para recibir información de horarios, precios y detalles de nuestros servicios. Respondemos en menos de 24 horas.",
   "sedes": [
     {
       "id": "centro",
       "nombre": "Sede Compañía",
       "direccion": "Compañía 1516 (metro Santa Ana)",
       "ciudad": "Santiago Centro",
+      "telefono": "+56 2 269 83 907",
+      "whatsapp": "+56 9 7798 7629",
+      "email": "contacto@idhyoga.com",
       "horarios": "Lunes a viernes 07:00 - 21:00\nSábados 09:00 - 14:00",
       "mapaUrl": "https://www.google.com/maps/place/IDH+YOGA/@-33.4393021,-70.6582785,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c5af76fa03a7:0xd763092aa12d06ed!8m2!3d-33.4393021!4d-70.6582785!16s%2Fg%2F1w_vph3t?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
     },
@@ -16,12 +19,26 @@
       "nombre": "Sede Vergara",
       "direccion": "Vergara 664 (metro Toesca)",
       "ciudad": "Santiago Centro",
+      "telefono": "",
+      "whatsapp": "+56 9 6851 0741",
+      "email": "vergara@idhyoga.com",
       "horarios": "Lunes a viernes 06:00 - 20:00\nSábados 08:00 - 13:00",
       "mapaUrl": "https://www.google.com/maps/place/IDH+YOGA+VERGARA/@-33.4550769,-70.6636644,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c5001aab9705:0xa1c3748f30f3ddee!8m2!3d-33.4550769!4d-70.6610895!16s%2Fg%2F11w7bwqzbp?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "id": "online",
+      "nombre": "Sede Online",
+      "direccion": "Clases en vivo por plataforma digital",
+      "ciudad": "Desde cualquier lugar",
+      "telefono": "+56 2 269 83 907",
+      "whatsapp": "+56 9 7798 7629",
+      "email": "contacto@idhyoga.com",
+      "horarios": "A convenir en coordinación con el alumno.",
+      "mapaUrl": "https://idhyoga.com"
     }
   ],
   "informacion": {
-    "whatsapp": "+56 9 779 87 629",
+    "whatsapp": "+56 9 7798 7629",
     "email": "contacto@idhyoga.com"
   },
   "formulario": {
