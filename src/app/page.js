@@ -124,7 +124,7 @@ export default function Home() {
                 <h3 className="font-display text-2xl text-zinc-900">{item.titulo}</h3>
                 <p className="text-sm text-zinc-600 leading-relaxed">{item.descripcion}</p>
                 <Link href={`/clases?buscar=${encodeURIComponent(item.titulo)}`} className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                  Ver detalle
+                  Ver horarios
                 </Link>
               </div>
             </article>

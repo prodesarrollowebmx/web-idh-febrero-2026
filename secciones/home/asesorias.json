@@ -1,16 +1,16 @@
 {
   "subtitulo": "Asesorías",
   "titulo": "Acompañamiento personalizado",
-  "descripcion": "Sesiones individuales diseñadas para tu proceso. Profundiza en tu práctica con orientación directa.",
+  "descripcion": "Sesiones individuales diseñadas para tu proceso. Profundiza temas de tu interés con orientación directa.",
   "servicios": [
     {
-      "id": "asesoria-personal",
-      "titulo": "Asesoría Personal",
-      "descripcion": "Sesión individual de 60 minutos para explorar tu práctica, necesidades y objetivos.",
-      "imagen": "https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?w=1200&h=800&fit=crop",
-      "contenidoLargo": "Espacio de acompañamiento uno a uno para revisar tu situación actual y definir un plan claro de avance. Trabajamos sobre tus necesidades reales, resolviendo dudas puntuales y priorizando acciones concretas para tu proceso.\n\nAl finalizar, te llevas recomendaciones aplicables a tu día a día y una orientación personalizada para sostener el progreso entre sesiones.",
+      "id": "asesoria-naturista",
+      "titulo": "Asesoría Naturista",
+      "descripcion": "Obtén una orientación precisa sobre tu salud a través del análisis del iris, identificando posibles desequilibrios en el organismo. El tratamiento se basa en fitoterapia, utilizando hierbas naturales para estimular y fortalecer tu bienestar.",
+      "imagen": "https://cdn.idhyoga.com/img-asesoria-naturista.jpeg",
+      "contenidoLargo": "En esta asesoría podrás obtener una orientación muy precisa sobre tu salud, a través de una observación detallada que el terapeuta hace de tu iris, donde la multiplicidad de terminales nerviosas, revelan qué órganos pudieran estar afectados. El tratamiento es a través de la fitoterapia, donde se aprovechan los principios activos de las diferentes hierbas, para estimular tu organismo y mejorar así tu salud.",
       "duracion": "60 min",
-      "precio": "$400 MXN",
+      "precio": "Consultar",
       "incluye": [
         "Evaluación inicial",
         "Propuesta personalizada",
@@ -19,48 +19,18 @@
       ]
     },
     {
-      "id": "seguimiento-mensual",
-      "titulo": "Seguimiento Mensual",
-      "descripcion": "Paquete de 4 sesiones mensuales para mantener tu progreso y ajustar según necesites.",
-      "imagen": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop",
-      "contenidoLargo": "Programa pensado para quienes buscan constancia, estructura y acompañamiento continuo. En cada sesión revisamos avances, ajustamos el plan y reforzamos los puntos clave para mantener una evolución sostenida.\n\nIncluye una mirada integral para adaptar el proceso a tus ritmos, objetivos y cambios del mes.",
+      "id": "asesoria-tarot",
+      "titulo": "Asesoría de Tarot",
+      "descripcion": "Descubre nuevas perspectivas sobre tu situación actual mediante el tarot enfocado en la claridad y dirección. Encuentra guía para tomar decisiones con mayor confianza y equilibrio en tu vida.",
+      "imagen": "https://cdn.idhyoga.com/img-asesoria-tarot.jpg",
+      "contenidoLargo": "En esta asesoría recibirás una orientación acerca de tu momento presente, a través de los símbolos que las cartas del Tarot, para saber hacia dónde enfocar tus acciones y esfuerzos, en cualquier aspecto de tu vida. Recibirás una visión más completa de lo que te está ocurriendo y cómo enfrentarlo mejor.",
       "duracion": "60 min cada una",
-      "precio": "$1,200 MXN/mes",
+      "precio": "Consultar",
       "incluye": [
-        "4 sesiones mensuales",
-        "Plan personalizado",
-        "Soporte entre sesiones",
-        "Acceso a materiales"
-      ]
-    },
-    {
-      "id": "asesoria-grupal",
-      "titulo": "Asesoría Grupal",
-      "descripcion": "Sesión para grupos de 3 a 6 personas interesadas en una temática específica.",
-      "imagen": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&h=800&fit=crop",
-      "contenidoLargo": "Formato colaborativo para profundizar en una temática común desde una experiencia participativa. La sesión integra explicación, práctica guiada e intercambio entre participantes para enriquecer el aprendizaje.\n\nIdeal para equipos, comunidades o grupos que quieran avanzar de forma conjunta con una propuesta adaptada al contexto del grupo.",
-      "duracion": "90 min",
-      "precio": "$600 MXN por persona",
-      "incluye": [
-        "Temática a medida",
-        "Dinámicas interactivas",
-        "Material impreso",
-        "Certificado"
-      ]
-    },
-    {
-      "id": "especializacion",
-      "titulo": "Especialización",
-      "descripcion": "Programa intensivo de 8 sesiones para profundizar en un tema específico.",
-      "imagen": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&h=800&fit=crop",
-      "contenidoLargo": "Recorrido formativo en profundidad para desarrollar competencias específicas con una metodología progresiva. Cada módulo combina fundamentos teóricos con práctica aplicada para consolidar aprendizajes.\n\nEstá orientado a quienes desean un proceso más completo, con seguimiento, evaluación y cierre con resultados observables.",
-      "duracion": "60 min cada una",
-      "precio": "$2,800 MXN",
-      "incluye": [
-        "8 sesiones estructuradas",
-        "Educación teórica y práctica",
-        "Evaluación final",
-        "Certificado de especialización"
+        "Análisis de tu situación actual",
+        "Identificación de bloqueos o desafíos",
+        "Reconocimiento de oportunidades próximas",
+        "Fortalecer tu bienestar personal y equilibrio interior"
       ]
     }
   ],

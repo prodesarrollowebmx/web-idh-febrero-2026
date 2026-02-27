@@ -15,6 +15,11 @@ const nextConfig = {
         hostname: 'images.unsplash.com',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.idhyoga.com',
+        pathname: '/**',
+      },
     ],
   },
 };
