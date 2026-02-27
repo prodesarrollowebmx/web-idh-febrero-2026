@@ -6,6 +6,7 @@
     {
       "id": "asesoria-naturista",
       "titulo": "Asesoría Naturista",
+      "sedes": ["Sede Compañía", "Online"],
       "descripcion": "Obtén una orientación precisa sobre tu salud a través del análisis del iris, identificando posibles desequilibrios en el organismo. El tratamiento se basa en fitoterapia, utilizando hierbas naturales para estimular y fortalecer tu bienestar.",
       "imagen": "https://cdn.idhyoga.com/img-asesoria-naturista.jpeg",
       "contenidoLargo": "En esta asesoría podrás obtener una orientación muy precisa sobre tu salud, a través de una observación detallada que el terapeuta hace de tu iris, donde la multiplicidad de terminales nerviosas, revelan qué órganos pudieran estar afectados. El tratamiento es a través de la fitoterapia, donde se aprovechan los principios activos de las diferentes hierbas, para estimular tu organismo y mejorar así tu salud.",
@@ -21,6 +22,7 @@
     {
       "id": "asesoria-tarot",
       "titulo": "Asesoría de Tarot",
+      "sedes": ["Online"],
       "descripcion": "Descubre nuevas perspectivas sobre tu situación actual mediante el tarot enfocado en la claridad y dirección. Encuentra guía para tomar decisiones con mayor confianza y equilibrio en tu vida.",
       "imagen": "https://cdn.idhyoga.com/img-asesoria-tarot.jpg",
       "contenidoLargo": "En esta asesoría recibirás una orientación acerca de tu momento presente, a través de los símbolos que las cartas del Tarot, para saber hacia dónde enfocar tus acciones y esfuerzos, en cualquier aspecto de tu vida. Recibirás una visión más completa de lo que te está ocurriendo y cómo enfrentarlo mejor.",

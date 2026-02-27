@@ -2,6 +2,7 @@
 
 import React, { useMemo, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import contactoData from "../../secciones/home/contacto.json";
 
 function getSedePreviewImageById(sedeId) {
@@ -145,11 +146,12 @@ export default function Footer() {
                 className="block h-full w-full relative"
                 aria-label={`Abrir ${selectedSedeLabel} en Google Maps`}
               >
-                <img
+                <Image
                   src={selectedSedeMapPreviewSrc}
                   alt={`Mapa de ${selectedSedeLabel}`}
-                  className="h-full w-full object-cover"
-                  loading="lazy"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 25vw"
                 />
                 <div className="absolute top-2 left-2 rounded-full bg-white/90 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-zinc-700">
                   {selectedSedeLabel}

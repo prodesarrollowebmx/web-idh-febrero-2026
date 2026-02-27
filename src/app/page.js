@@ -9,6 +9,7 @@ import diplomadoData from "../../secciones/home/diplomado.json";
 import testimoniosData from "../../secciones/home/testimonios.json";
 import agendaData from "../../secciones/home/agenda.json";
 import contactoData from "../../secciones/home/contacto.json";
+import ContactoForm from "../components/ContactoForm";
 
 export default function Home() {
   // Obtener solo los primeros 4 talleres activos marcados para home
@@ -295,31 +296,7 @@ export default function Home() {
               {contactoData.informacion.email}
             </div>
           </div>
-          <form className="grid gap-4">
-            {contactoData.formulario.campos.map((campo, index) => (
-              campo.tipo === "textarea" ? (
-                <textarea
-                  key={index}
-                  placeholder={campo.placeholder}
-                  rows={campo.filas}
-                  className="rounded-2xl border border-white/70 bg-white/80 px-4 py-3 text-sm"
-                />
-              ) : (
-                <input
-                  key={index}
-                  type={campo.tipo}
-                  placeholder={campo.placeholder}
-                  className="rounded-2xl border border-white/70 bg-white/80 px-4 py-3 text-sm"
-                />
-              )
-            ))}
-            <button
-              type="button"
-              className="rounded-full bg-[#5b7fa8] px-6 py-3 text-sm uppercase tracking-[0.2em] text-white"
-            >
-              {contactoData.formulario.boton}
-            </button>
-          </form>
+          <ContactoForm contactoData={contactoData} mode="footer" />
         </div>
       </section>
     </div>

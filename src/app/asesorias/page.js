@@ -28,6 +28,14 @@ export default function AsesoriasPage() {
       <section className="max-w-6xl mx-auto px-4 pb-16">
         <div className="grid gap-6 md:grid-cols-2">
           {asesoriaData.servicios.map((servicio) => (
+            (() => {
+              const sedes = Array.isArray(servicio.sedes)
+                ? servicio.sedes.filter(Boolean)
+                : servicio.servicio
+                  ? [servicio.servicio]
+                  : [];
+
+              return (
             <article key={servicio.id} className="glass-card rounded-3xl p-8 space-y-6">
               {servicio.imagen && (
                 <div className="relative w-full h-48 rounded-2xl overflow-hidden">
@@ -48,6 +56,15 @@ export default function AsesoriasPage() {
               </div>
 
               <div className="border-t border-white/50 pt-6 space-y-4">
+                {sedes.length > 0 && (
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 font-semibold mb-1">
+                      {sedes.length > 1 ? "Sedes:" : "Servicio:"}
+                    </div>
+                    <div className="text-sm text-zinc-900">{sedes.join(", ")}</div>
+                  </div>
+                )}
+
                 <div>
                   <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 font-semibold mb-1">
                     Duración:
@@ -87,6 +104,8 @@ export default function AsesoriasPage() {
                 </div>
               </div>
             </article>
+              );
+            })()
           ))}
         </div>
       </section>

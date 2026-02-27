@@ -1,5 +1,6 @@
 import Link from "next/link";
 import contactoData from "../../../secciones/home/contacto.json";
+import ContactoForm from "../../components/ContactoForm";
 
 export const metadata = { title: "Contacto" };
 
@@ -17,46 +18,10 @@ export default function ContactoPage() {
       </section>
 
       <section className="max-w-6xl mx-auto px-4 pb-16 grid gap-8 md:grid-cols-[1fr_0.9fr]">
-        <form className="rounded-4xl border border-white/70 bg-white/70 p-8 grid gap-4">
-          <select
-            name="sede"
-            required
-            defaultValue=""
-            className="rounded-2xl border border-white/70 bg-white/80 px-4 py-3 text-sm"
-          >
-            <option value="" disabled>
-              Selecciona una sede
-            </option>
-            {contactoData.sedes.map((sede) => (
-              <option key={sede.id} value={sede.id}>
-                {sede.nombre}
-              </option>
-            ))}
-          </select>
-          {contactoData.formulario.campos.map((campo, index) => (
-            campo.tipo === "textarea" ? (
-              <textarea
-                key={index}
-                placeholder={campo.placeholder}
-                rows={campo.filas}
-                className="rounded-2xl border border-white/70 bg-white/80 px-4 py-3 text-sm"
-              />
-            ) : (
-              <input
-                key={index}
-                type={campo.tipo}
-                placeholder={campo.placeholder}
-                className="rounded-2xl border border-white/70 bg-white/80 px-4 py-3 text-sm"
-              />
-            )
-          ))}
-          <button
-            type="button"
-            className="rounded-full bg-[#5b7fa8] px-6 py-3 text-sm uppercase tracking-[0.2em] text-white"
-          >
-            {contactoData.formulario.boton}
-          </button>
-        </form>
+        <ContactoForm
+          contactoData={contactoData}
+          formClassName="rounded-4xl border border-white/70 bg-white/70 p-8 grid gap-4"
+        />
 
         <div className="space-y-6">
           {contactoData.sedes.map((sede) => (
