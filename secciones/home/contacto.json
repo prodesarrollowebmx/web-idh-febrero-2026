@@ -39,7 +39,13 @@
   ],
   "informacion": {
     "whatsapp": "+56 9 7798 7629",
-    "email": "contacto@idhyoga.com"
+    "email": "contacto@idhyoga.com",
+    "redes": {
+      "instagramVergara": "https://www.instagram.com/idh_vergara/?hl=es-la",
+      "instagramCompania": "https://www.instagram.com/idhyoga/?hl=es-la",
+      "facebook": "https://es-la.facebook.com/IDHsantiago/",
+      "youtube": "https://www.youtube.com/@idhyogasantiago8741"
+    }
   },
   "formulario": {
     "campos": [
