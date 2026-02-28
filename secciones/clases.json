@@ -44,7 +44,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Juanita K.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -57,7 +57,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Veronica C.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -70,7 +70,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Miguel P.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -83,7 +83,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Carlos F.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -96,7 +96,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Adriana M.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -109,7 +109,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Adriana M.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -122,7 +122,7 @@
       "duracion": "120 min",
       "nivel": "Todos los niveles",
       "instructor": "Adriana M.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -135,7 +135,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Carlos F.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -148,7 +148,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "",
-      "cupo": "25 personas",
+      "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -161,7 +161,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "",
-      "cupo": "25 personas",
+      "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -174,7 +174,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "",
-      "cupo": "25 personas",
+      "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -239,7 +239,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Sandra H.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -252,7 +252,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Sandra H.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -265,7 +265,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Sandra H.",
-      "cupo": "25 personas",
+      "cupo": "15 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     },
@@ -278,7 +278,7 @@
       "duracion": "60 min",
       "nivel": "Todos los niveles",
       "instructor": "Sandra H",
-      "cupo": "25 personas",
+      "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
       "activo": true
     }
