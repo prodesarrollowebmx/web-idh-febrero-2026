@@ -1,6 +1,24 @@
 import Link from "next/link";
 
-export const metadata = { title: "Diplomado" };
+export const metadata = {
+  title: "Diplomado",
+  description:
+    "Formación de Instructor de Hatha Yoga con enfoque integral, certificación y acompañamiento docente.",
+  alternates: {
+    canonical: "/diplomado",
+  },
+  openGraph: {
+    title: "Diplomado de Hatha Yoga | IDH Yoga",
+    description:
+      "Programa presencial con clases grabadas, contenidos teóricos-prácticos y certificación internacional.",
+    url: "/diplomado",
+  },
+  twitter: {
+    title: "Diplomado de Hatha Yoga | IDH Yoga",
+    description:
+      "Programa presencial con clases grabadas, contenidos teóricos-prácticos y certificación internacional.",
+  },
+};
 
 export default function DiplomadoPage() {
   const modulos = [

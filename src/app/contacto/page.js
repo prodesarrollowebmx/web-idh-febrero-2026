@@ -2,7 +2,25 @@ import Link from "next/link";
 import contactoData from "../../../secciones/home/contacto.json";
 import ContactoForm from "../../components/ContactoForm";
 
-export const metadata = { title: "Contacto" };
+export const metadata = {
+  title: "Contacto",
+  description:
+    "Contacta a IDH Yoga para resolver dudas y reservar clases, talleres, asesorías o diplomado.",
+  alternates: {
+    canonical: "/contacto",
+  },
+  openGraph: {
+    title: "Contacto | IDH Yoga",
+    description:
+      "Escríbenos para reservas, asesorías y más información sobre nuestros programas.",
+    url: "/contacto",
+  },
+  twitter: {
+    title: "Contacto | IDH Yoga",
+    description:
+      "Escríbenos para reservas, asesorías y más información sobre nuestros programas.",
+  },
+};
 
 export default function ContactoPage() {
   return (

@@ -3,7 +3,25 @@ import EspaciosCarousel from "../../components/EspaciosCarousel";
 import espaciosData from "../../../secciones/home/espacios.json";
 import clasesData from "../../../secciones/clases.json";
 
-export const metadata = { title: "Renta de Espacios" };
+export const metadata = {
+  title: "Espacios Disponibles",
+  description:
+    "Espacios disponibles para actividades de bienestar, talleres y encuentros en sedes IDH Yoga.",
+  alternates: {
+    canonical: "/espacios",
+  },
+  openGraph: {
+    title: "Espacios Disponibles | IDH Yoga",
+    description:
+      "Salas equipadas y flexibles para actividades presenciales en un entorno de bienestar.",
+    url: "/espacios",
+  },
+  twitter: {
+    title: "Espacios Disponibles | IDH Yoga",
+    description:
+      "Salas equipadas y flexibles para actividades presenciales en un entorno de bienestar.",
+  },
+};
 
 export default function EspaciosPage() {
   const sedesById = clasesData.sedes.reduce((acc, sede) => {
@@ -118,7 +136,7 @@ export default function EspaciosPage() {
           <div className="grid gap-10 md:grid-cols-2">
             <div className="space-y-6">
               <p className="text-xs uppercase tracking-[0.3em] text-zinc-500">Reservas y consultas</p>
-              <h2 className="section-title text-3xl md:text-4xl">¿Quieres rentar un espacio?</h2>
+              <h2 className="section-title text-3xl md:text-4xl">¿Necesitas un espacio para tus actividades?</h2>
               <p className="text-sm text-zinc-600 leading-relaxed">
                 Ponemos a tu disposición espacios diseñados para promover bienestar y práctica consciente. Contáctanos para conocer disponibilidades, tarifas especiales por paquetes y personalizar tu experiencia.
               </p>
@@ -136,7 +154,7 @@ export default function EspaciosPage() {
                   <span className="text-blue-500 text-lg mt-1">→</span>
                   <div>
                     <div className="font-semibold text-zinc-900 text-sm">Equipamiento completo</div>
-                    <p className="text-xs text-zinc-600">Audio, espejos, cojines y accesorios</p>
+                    <p className="text-xs text-zinc-600">Audio, proyector, sillas, cojines y accesorios</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

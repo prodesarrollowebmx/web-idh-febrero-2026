@@ -3,7 +3,25 @@ import { Suspense } from "react";
 import talleresData from "../../../secciones/talleres.json";
 import TalleresSearcher from "../../components/TalleresSearcher";
 
-export const metadata = { title: "Talleres" };
+export const metadata = {
+  title: "Talleres",
+  description:
+    "Explora talleres y cursos abiertos de yoga y bienestar con cupos limitados en IDH Yoga.",
+  alternates: {
+    canonical: "/talleres",
+  },
+  openGraph: {
+    title: "Talleres y Cursos | IDH Yoga",
+    description:
+      "Programas intensivos para profundizar práctica, respiración, filosofía y bienestar integral.",
+    url: "/talleres",
+  },
+  twitter: {
+    title: "Talleres y Cursos | IDH Yoga",
+    description:
+      "Programas intensivos para profundizar práctica, respiración, filosofía y bienestar integral.",
+  },
+};
 
 export default function TalleresPage() {
   // Filtrar solo talleres activos

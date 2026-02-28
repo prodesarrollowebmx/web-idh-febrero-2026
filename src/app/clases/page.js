@@ -3,7 +3,25 @@ import { Suspense } from "react";
 import HorariosSearcher from "../../components/HorariosSearcher";
 import clasesData from "../../../secciones/clases.json";
 
-export const metadata = { title: "Clases" };
+export const metadata = {
+  title: "Clases",
+  description:
+    "Revisa horarios, sedes e instructores de clases de yoga para todos los niveles en IDH Yoga.",
+  alternates: {
+    canonical: "/clases",
+  },
+  openGraph: {
+    title: "Clases de Yoga | IDH Yoga",
+    description:
+      "Encuentra clases por sede, horario y nivel con acompañamiento de instructores especializados.",
+    url: "/clases",
+  },
+  twitter: {
+    title: "Clases de Yoga | IDH Yoga",
+    description:
+      "Encuentra clases por sede, horario y nivel con acompañamiento de instructores especializados.",
+  },
+};
 
 export default function ClasesPage() {
   // Filtrar solo clases activas

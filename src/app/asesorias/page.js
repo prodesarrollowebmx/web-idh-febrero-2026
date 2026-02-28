@@ -2,7 +2,25 @@ import Link from "next/link";
 import Image from "next/image";
 import asesoriaData from "../../../secciones/home/asesorias.json";
 
-export const metadata = { title: "Asesorías" };
+export const metadata = {
+  title: "Asesorías",
+  description:
+    "Acompañamiento personalizado con asesorías de bienestar, salud natural y orientación integral.",
+  alternates: {
+    canonical: "/asesorias",
+  },
+  openGraph: {
+    title: "Asesorías | IDH Yoga",
+    description:
+      "Sesiones individuales para profundizar tu proceso con orientación personalizada.",
+    url: "/asesorias",
+  },
+  twitter: {
+    title: "Asesorías | IDH Yoga",
+    description:
+      "Sesiones individuales para profundizar tu proceso con orientación personalizada.",
+  },
+};
 
 export default function AsesoriasPage() {
   return (

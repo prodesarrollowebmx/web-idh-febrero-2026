@@ -11,6 +11,26 @@ import agendaData from "../../secciones/home/agenda.json";
 import contactoData from "../../secciones/home/contacto.json";
 import ContactoForm from "../components/ContactoForm";
 
+export const metadata = {
+  title: "Inicio",
+  description:
+    "Escuela y comunidad de yoga en Santiago: clases, talleres, diplomado, asesorías y espacios para bienestar integral.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "IDH Yoga | Escuela y Comunidad",
+    description:
+      "Clases, talleres, diplomado, asesorías y experiencias de bienestar en IDH Yoga.",
+    url: "/",
+  },
+  twitter: {
+    title: "IDH Yoga | Escuela y Comunidad",
+    description:
+      "Clases, talleres, diplomado, asesorías y experiencias de bienestar en IDH Yoga.",
+  },
+};
+
 export default function Home() {
   // Obtener solo los primeros 4 talleres activos marcados para home
   const talleresDestacados = talleresData.cursos

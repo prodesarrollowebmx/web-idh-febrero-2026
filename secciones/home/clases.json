@@ -20,16 +20,16 @@
     {
       "id": "yoga-adulto",
       "titulo": "Yoga adulto mayor",
-      "descripcion": "En yoga para adultos mayores conectamos respiración y movimiento suave para mejorar la movilidad, el equilibrio y el bienestar.",
+      "descripcion": "En yoga para adultos mayores trabajamos con movimientos suaves y conscientes, integrando respiración y movilidad para fortalecer el cuerpo sin generar impacto. Las clases están orientadas a mejorar el equilibrio, la flexibilidad y la coordinación, promoviendo mayor autonomía y calidad de vida. A través de una práctica segura y adaptada, fomentamos el bienestar físico y emocional en un ambiente tranquilo y de acompañamiento.",
       "icono": "*",
       "imagen": "https://images.unsplash.com/photo-1718862403436-616232ec6005?w=400&h=300&fit=crop"
     },
     {
-      "id": "yoga-niños",
-      "titulo": "Yoga para niños",
-      "descripcion": "En yoga para niños exploramos el movimiento y la respiración de forma divertida para fortalecer el cuerpo, mejorar la concentración y fomentar la calma.",
+      "id": "meditacion",
+      "titulo": "Meditación",
+      "descripcion": "En este curso de meditación, los alumnos aprenden y practican diversas técnicas de atención plena y respiración consciente orientadas al reconocimiento interior, reducir el estrés y acrecentar la consciencia. A través de ejercicios guiados, desarrollan mayor concentración, claridad mental y equilibrio emocional, fomentando una sensación profunda de calma interior y bienestar en su vida diaria.",
       "icono": "*",
-      "imagen": "https://images.unsplash.com/photo-1655842556563-2c28adb3fcc5?w=400&h=300&fit=crop"
+      "imagen": "https://images.unsplash.com/photo-1443059309078-bced073a51c5?w=400&h=300&fit=crop"
     }
   ]
 }

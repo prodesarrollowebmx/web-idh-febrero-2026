@@ -4,6 +4,43 @@ import { notFound } from "next/navigation";
 import { use } from "react";
 import asesoriaData from "../../../../secciones/home/asesorias.json";
 
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+  const asesoria = asesoriaData.servicios.find((servicio) => servicio.id === id);
+
+  if (!asesoria) {
+    return {
+      title: "Asesoría no encontrada",
+      description: "La asesoría solicitada no está disponible.",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  return {
+    title: asesoria.titulo,
+    description: asesoria.descripcion,
+    alternates: {
+      canonical: `/asesorias/${asesoria.id}`,
+    },
+    openGraph: {
+      title: `${asesoria.titulo} | IDH Yoga`,
+      description: asesoria.descripcion,
+      url: `/asesorias/${asesoria.id}`,
+    },
+    twitter: {
+      title: `${asesoria.titulo} | IDH Yoga`,
+      description: asesoria.descripcion,
+    },
+  };
+}
+
+export function generateStaticParams() {
+  return asesoriaData.servicios.map((servicio) => ({ id: servicio.id }));
+}
+
 export default function AsesoriaDetailPage({ params }) {
   const { id } = use(params);
   const asesoria = asesoriaData.servicios.find((servicio) => servicio.id === id);

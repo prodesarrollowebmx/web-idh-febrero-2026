@@ -1,22 +1,59 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { use } from "react";
 import talleresData from "../../../../secciones/talleres.json";
 
-export default function TallerDetailPage({ params }) {
-  const { id } = use(params);
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+  const taller = talleresData.cursos.find((item) => item.id === id && item.activo);
+
+  if (!taller) {
+    return {
+      title: "Taller no encontrado",
+      description: "El taller solicitado no está disponible.",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  return {
+    title: taller.titulo,
+    description: taller.descripcion,
+    alternates: {
+      canonical: `/talleres/${taller.id}`,
+    },
+    openGraph: {
+      title: `${taller.titulo} | IDH Yoga`,
+      description: taller.descripcion,
+      url: `/talleres/${taller.id}`,
+    },
+    twitter: {
+      title: `${taller.titulo} | IDH Yoga`,
+      description: taller.descripcion,
+    },
+  };
+}
+
+export function generateStaticParams() {
+  return (talleresData.cursos || [])
+    .filter((taller) => taller?.activo)
+    .map((taller) => ({ id: taller.id }));
+}
+
+export default async function TallerDetailPage({ params }) {
+  const { id } = await params;
   const taller = talleresData.cursos.find((t) => t.id === id);
-  const actividadGratuita =
-    typeof taller?.gratuita === "boolean"
-      ? taller.gratuita
-      : (taller?.precio || "").toLowerCase().includes("gratis");
 
   if (!taller) {
     notFound();
   }
+
+  const actividadGratuita =
+    typeof taller.gratuita === "boolean"
+      ? taller.gratuita
+      : (taller.precio || "").toLowerCase().includes("gratis");
 
   return (
     <main className="min-h-screen">
