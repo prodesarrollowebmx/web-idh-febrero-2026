@@ -7,6 +7,7 @@
       "id": "hatha-yoga",
       "titulo": "Hatha yoga",
       "descripcion": "En este curso los alumnos aprenden técnicas para mejorar su calidad de vida, que incluyen gimnasia psicofísica, estiramientos para flexibilizar músculos y articulaciones, técnicas de respiración, asanas o posturas corporales que estimulan el sistema endocrino, ejercicios de concentración y práctica de relajación consciente.",
+      "mostrarBotonVerHorarios": true,
       "icono": "*",
       "imagen": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop"
     },
@@ -14,6 +15,7 @@
       "id": "pilates",
       "titulo": "Pilates",
       "descripcion": "En este curso, los alumnos trabajan los ejercicios por grupos musculares, en secuencias que se repiten, ayudados por bandas elásticas, lo que trae grandes beneficios para la salud, tales como mayor fuerza muscular, mayor resistencia física y mayor capacidad respiratoria, obteniendo un cuerpo moldeado y una figura firme.",
+      "mostrarBotonVerHorarios": true,
       "icono": "*",
       "imagen": "https://images.unsplash.com/photo-1655712779546-a1c0ea613cd8?w=400&h=300&fit=crop"
     },
@@ -21,6 +23,7 @@
       "id": "yoga-adulto",
       "titulo": "Yoga adulto mayor",
       "descripcion": "En yoga para adultos mayores trabajamos con movimientos suaves y conscientes, integrando respiración y movilidad para fortalecer el cuerpo sin generar impacto. Las clases están orientadas a mejorar el equilibrio, la flexibilidad y la coordinación, promoviendo mayor autonomía y calidad de vida. A través de una práctica segura y adaptada, fomentamos el bienestar físico y emocional en un ambiente tranquilo y de acompañamiento.",
+      "mostrarBotonVerHorarios": true,
       "icono": "*",
       "imagen": "https://images.unsplash.com/photo-1718862403436-616232ec6005?w=400&h=300&fit=crop"
     },
@@ -28,6 +31,7 @@
       "id": "meditacion",
       "titulo": "Meditación",
       "descripcion": "En este curso de meditación, los alumnos aprenden y practican diversas técnicas de atención plena y respiración consciente orientadas al reconocimiento interior, reducir el estrés y acrecentar la consciencia. A través de ejercicios guiados, desarrollan mayor concentración, claridad mental y equilibrio emocional, fomentando una sensación profunda de calma interior y bienestar en su vida diaria.",
+      "mostrarBotonVerHorarios": false,
       "icono": "*",
       "imagen": "https://images.unsplash.com/photo-1443059309078-bced073a51c5?w=400&h=300&fit=crop"
     }

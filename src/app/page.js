@@ -131,6 +131,10 @@ export default function Home() {
         </div>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {clasesData.clases.map((item) => (
+            (() => {
+              const mostrarBotonVerHorarios = item.mostrarBotonVerHorarios ?? true;
+
+              return (
             <article key={item.id} className="glass-card rounded-3xl overflow-hidden">
               <div className="relative w-full h-48">
                 <Image
@@ -144,11 +148,15 @@ export default function Home() {
               <div className="p-6 space-y-4">
                 <h3 className="font-display text-2xl text-zinc-900">{item.titulo}</h3>
                 <p className="text-sm text-zinc-600 leading-relaxed">{item.descripcion}</p>
-                <Link href={`/clases?buscar=${encodeURIComponent(item.titulo)}`} className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                  Ver horarios
-                </Link>
+                {mostrarBotonVerHorarios && (
+                  <Link href={`/clases?buscar=${encodeURIComponent(item.titulo)}`} className="text-xs uppercase tracking-[0.2em] text-zinc-500">
+                    Ver horarios
+                  </Link>
+                )}
               </div>
             </article>
+              );
+            })()
           ))}
         </div>
       </section>
