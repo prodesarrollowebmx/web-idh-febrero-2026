@@ -62,11 +62,14 @@ export default function HorariosSearcher({ clases, sedes }) {
       <div className="sticky top-20 z-40 bg-white/80 backdrop-blur-xl rounded-2xl border border-white/70 p-6 shadow-lg">
         <input
           type="text"
-          placeholder="Busca por nombre de clase, hora, día, instructor o sede..."
+          placeholder="Buscar clase, hora, día, instructor o sede"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full px-4 py-3 rounded-xl border border-zinc-200 bg-white focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
         />
+        <p className="mt-2 text-xs text-zinc-500">
+          Busca por nombre de clase, hora, día, instructor o sede.
+        </p>
         {searchTerm && (
           <p className="text-sm text-zinc-500 mt-2">
             {filteredClases.length} clase{filteredClases.length !== 1 ? "s" : ""} encontrada{filteredClases.length !== 1 ? "s" : ""}
