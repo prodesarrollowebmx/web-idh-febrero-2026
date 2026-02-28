@@ -52,11 +52,14 @@ export default function TalleresSearcher({ talleres }) {
       <div className="sticky top-20 z-40 bg-white/80 backdrop-blur-xl rounded-2xl border border-white/70 p-6 shadow-lg">
         <input
           type="text"
-          placeholder="Busca por taller, fecha, hora, instructor o sede..."
+          placeholder="Buscar ej: marzo"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full px-4 py-3 rounded-xl border border-zinc-200 bg-white focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
         />
+        <p className="mt-2 text-xs text-zinc-500">
+          Busca por taller, fecha, hora, instructor o sede.
+        </p>
         {searchTerm && (
           <p className="text-sm text-zinc-500 mt-2">
             {filteredTalleres.length} taller{filteredTalleres.length !== 1 ? "es" : ""} encontrado{filteredTalleres.length !== 1 ? "s" : ""}
