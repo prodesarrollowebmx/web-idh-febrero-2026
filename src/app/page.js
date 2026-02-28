@@ -135,7 +135,7 @@ export default function Home() {
               const mostrarBotonVerHorarios = item.mostrarBotonVerHorarios ?? true;
 
               return (
-            <article key={item.id} className="glass-card rounded-3xl overflow-hidden">
+            <article key={item.id} className="glass-card rounded-3xl overflow-hidden h-full flex flex-col">
               <div className="relative w-full h-48">
                 <Image
                   src={item.imagen}
@@ -145,13 +145,15 @@ export default function Home() {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
-              <div className="p-6 space-y-4">
+              <div className="p-6 flex flex-1 flex-col gap-4">
                 <h3 className="font-display text-2xl text-zinc-900">{item.titulo}</h3>
                 <p className="text-sm text-zinc-600 leading-relaxed">{item.descripcion}</p>
                 {mostrarBotonVerHorarios && (
-                  <Link href={`/clases?buscar=${encodeURIComponent(item.titulo)}`} className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                    Ver horarios
-                  </Link>
+                  <div className="mt-auto pt-4 border-t border-zinc-300/80">
+                    <Link href={`/clases?buscar=${encodeURIComponent(item.titulo)}`} className="text-xs uppercase tracking-[0.2em] text-zinc-700 font-medium">
+                      Ver horarios
+                    </Link>
+                  </div>
                 )}
               </div>
             </article>
