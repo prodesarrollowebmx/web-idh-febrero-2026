@@ -298,7 +298,7 @@ export default function Home() {
                     href={`/clases?sede=${bloque.sedeId}`}
                     className="inline-flex items-center justify-center rounded-full border border-sky-300 px-4 py-2 text-xs uppercase tracking-[0.2em] text-zinc-700 hover:bg-white/50 transition-colors"
                   >
-                    Ver todos los horarios
+                    Ver todos los horarios de sede
                   </Link>
                 </div>
               </div>
