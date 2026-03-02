@@ -1,7 +1,7 @@
 {
   "subtitulo": "Agenda",
   "titulo": "Horarios semanales",
-  "descripcion": "Prácticas presenciales y online. Consulta disponibilidad y reserva con anticipación.",
+  "descripcion": "Prácticas presenciales. Consulta disponibilidad y reserva con anticipación.",
   "sedes": [
     {
       "id": "centro",
