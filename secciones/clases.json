@@ -150,7 +150,7 @@
       "instructor": "",
       "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
-      "activo": true
+      "activo": false
     },
     {
       "id": "hatha-online-2",
@@ -163,7 +163,7 @@
       "instructor": "",
       "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
-      "activo": true
+      "activo": false
     },
     {
       "id": "hatha-online-3",
@@ -176,7 +176,7 @@
       "instructor": "",
       "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
-      "activo": true
+      "activo": false
     },
     {
       "id": "hatha-v-1",
@@ -280,7 +280,7 @@
       "instructor": "Sandra H",
       "cupo": "8 personas",
       "precio": "$35.000 CLP/mes",
-      "activo": true
+      "activo": false
     },
     {
       "id": "pilates-v-1",
