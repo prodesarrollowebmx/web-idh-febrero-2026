@@ -1,6 +1,6 @@
 {
   "subtitulo": "Agenda",
-  "titulo": "Horarios semanales destacados",
+  "titulo": "Horarios semanales",
   "descripcion": "Prácticas presenciales. Consulta disponibilidad y reserva con anticipación.",
   "sedes": [
     {
@@ -17,28 +17,13 @@
       "sedeId": "centro",
       "horarios": [
         {
-          "dia": "Lunes",
-          "detalle": "18:00 Hatha Yoga - 19:00 Pilates",
+          "dia": "Martes y jueves",
+          "detalle": "13:15 - Hatha Yoga",
           "homeActivo": true
         },
         {
-          "dia": "Martes",
-          "detalle": "11:00 Hatha Yoga - 12:15 Yoga adulto mayor",
-          "homeActivo": true
-        },
-        {
-          "dia": "Miércoles",
-          "detalle": "19:15 Hatha Yoga",
-          "homeActivo": true
-        },
-        {
-          "dia": "Jueves",
-          "detalle": "13:00 Hatha yoga",
-          "homeActivo": true
-        },
-        {
-          "dia": "Sábado",
-          "detalle": "11:00 Yoga para niños - Yoga Intensivo",
+          "dia": "Sábados",
+          "detalle": "11:00 - Yoga intensivo",
           "homeActivo": true
         }
       ]
@@ -47,28 +32,13 @@
       "sedeId": "vergara",
       "horarios": [
         {
-          "dia": "Lunes",
-          "detalle": "18:45 Hatha Yoga",
+          "dia": "Lunes, martes, miércoles y jueves",
+          "detalle": "11:00 - Hatha Yoga",
           "homeActivo": true
         },
         {
-          "dia": "Martes",
-          "detalle": "20:15 Hatha Yoga",
-          "homeActivo": true
-        },
-        {
-          "dia": "Miércoles",
-          "detalle": "20:00 Hatha Yoga",
-          "homeActivo": true
-        },
-        {
-          "dia": "Jueves",
-          "detalle": "20:15 Hatha Yoga",
-          "homeActivo": true
-        },
-        {
-          "dia": "Viernes",
-          "detalle": "19:00 Hatha Yoga",
+          "dia": "Martes y jueves",
+          "detalle": "20:15 - Vinyasa Yoga",
           "homeActivo": true
         }
       ]

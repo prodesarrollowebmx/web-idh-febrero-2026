@@ -278,17 +278,28 @@ export default function Home() {
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
             {agendaData.horariosPorSede.map((bloque) => (
-              <div key={bloque.sedeId} className="rounded-3xl border border-white/70 bg-white/70 p-6">
+              <div key={bloque.sedeId} className="rounded-3xl border border-white/70 bg-white/70 p-6 flex h-full flex-col">
                 <div className="text-xs uppercase tracking-[0.3em] text-zinc-500">
                   {sedesById[bloque.sedeId]?.nombre || "Sede"}
                 </div>
-                <div className="mt-4 divide-y divide-white/70">
+                <div className="mt-2 inline-flex w-fit rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-sky-800">
+                  Horarios destacados
+                </div>
+                <div className="mt-4 divide-y divide-white/70 flex-1">
                   {bloque.horarios.filter((item) => item.homeActivo).map((item) => (
                     <div key={`${bloque.sedeId}-${item.dia}`} className="py-3">
                       <div className="font-display text-lg text-zinc-900">{item.dia}</div>
                       <div className="text-sm text-zinc-600 leading-relaxed">{item.detalle}</div>
                     </div>
                   ))}
+                </div>
+                <div className="mt-5">
+                  <Link
+                    href="/clases"
+                    className="inline-flex items-center justify-center rounded-full border border-sky-300 px-4 py-2 text-xs uppercase tracking-[0.2em] text-zinc-700 hover:bg-white/50 transition-colors"
+                  >
+                    Ver todos los horarios
+                  </Link>
                 </div>
               </div>
             ))}
