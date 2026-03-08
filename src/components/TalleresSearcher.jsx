@@ -53,6 +53,26 @@ function inferActividadRealizadaByFecha(fecha) {
   return actividadDate < todayDate;
 }
 
+function parseSpanishDate(fecha) {
+  const normalizedFecha = normalizeSpanishText(fecha);
+  const match = normalizedFecha.match(/(\d{1,2})\s+de\s+([a-z]+)(?:\s+de\s+(\d{4}))?/);
+
+  if (!match) {
+    return null;
+  }
+
+  const day = Number.parseInt(match[1], 10);
+  const month = MONTHS_BY_NAME[match[2]];
+  const year = match[3] ? Number.parseInt(match[3], 10) : new Date().getFullYear();
+
+  if (!Number.isInteger(day) || month === undefined || !Number.isInteger(year)) {
+    return null;
+  }
+
+  const parsedDate = new Date(year, month, day);
+  return Number.isNaN(parsedDate.getTime()) ? null : parsedDate;
+}
+
 export default function TalleresSearcher({ talleres }) {
   const searchParams = useSearchParams();
   const initialSearch = searchParams.get("buscar") || "";
@@ -85,6 +105,25 @@ export default function TalleresSearcher({ talleres }) {
     );
 
     return matchFields || matchSede;
+  });
+
+  const sortedTalleres = [...filteredTalleres].sort((a, b) => {
+    const dateA = parseSpanishDate(a.fecha);
+    const dateB = parseSpanishDate(b.fecha);
+
+    if (!dateA && !dateB) {
+      return 0;
+    }
+
+    if (!dateA) {
+      return 1;
+    }
+
+    if (!dateB) {
+      return -1;
+    }
+
+    return dateB.getTime() - dateA.getTime();
   });
 
   const isActividadGratuita = (taller) => {
@@ -121,7 +160,7 @@ export default function TalleresSearcher({ talleres }) {
 
       {filteredTalleres.length > 0 ? (
         <div className="grid gap-6 md:grid-cols-3">
-          {filteredTalleres.map((taller) => {
+          {sortedTalleres.map((taller) => {
             const actividadRealizada = isActividadRealizada(taller);
 
             return (

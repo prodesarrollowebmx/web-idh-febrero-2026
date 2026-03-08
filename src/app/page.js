@@ -11,6 +11,64 @@ import agendaData from "../../secciones/home/agenda.json";
 import contactoData from "../../secciones/home/contacto.json";
 import ContactoForm from "../components/ContactoForm";
 
+const MONTHS_BY_NAME = {
+  enero: 0,
+  febrero: 1,
+  marzo: 2,
+  abril: 3,
+  mayo: 4,
+  junio: 5,
+  julio: 6,
+  agosto: 7,
+  septiembre: 8,
+  setiembre: 8,
+  octubre: 9,
+  noviembre: 10,
+  diciembre: 11,
+};
+
+function normalizeSpanishText(value = "") {
+  return value
+    .toString()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
+function parseSpanishDate(fecha) {
+  const normalizedFecha = normalizeSpanishText(fecha);
+  const match = normalizedFecha.match(/(\d{1,2})\s+de\s+([a-z]+)(?:\s+de\s+(\d{4}))?/);
+
+  if (!match) {
+    return null;
+  }
+
+  const day = Number.parseInt(match[1], 10);
+  const month = MONTHS_BY_NAME[match[2]];
+  const year = match[3] ? Number.parseInt(match[3], 10) : new Date().getFullYear();
+
+  if (!Number.isInteger(day) || month === undefined || !Number.isInteger(year)) {
+    return null;
+  }
+
+  const parsedDate = new Date(year, month, day);
+  return Number.isNaN(parsedDate.getTime()) ? null : parsedDate;
+}
+
+function inferActividadRealizadaByFecha(fecha) {
+  const actividadDate = parseSpanishDate(fecha);
+
+  if (!actividadDate) {
+    return false;
+  }
+
+  const today = new Date();
+  const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+
+  return actividadDate < todayDate;
+}
+
 export const metadata = {
   title: "Inicio",
   description:
@@ -35,6 +93,24 @@ export default function Home() {
   // Obtener solo los primeros 4 talleres activos marcados para home
   const talleresDestacados = talleresData.cursos
     .filter((taller) => taller.activo && taller.homeActivo)
+    .sort((a, b) => {
+      const dateA = parseSpanishDate(a.fecha);
+      const dateB = parseSpanishDate(b.fecha);
+
+      if (!dateA && !dateB) {
+        return 0;
+      }
+
+      if (!dateA) {
+        return 1;
+      }
+
+      if (!dateB) {
+        return -1;
+      }
+
+      return dateB.getTime() - dateA.getTime();
+    })
     .slice(0, 4);
   const sedesById = agendaData.sedes.reduce((acc, sede) => {
     acc[sede.id] = sede;
@@ -224,14 +300,24 @@ export default function Home() {
             </Link>
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
-            {talleresDestacados.map((taller) => (
-              <article key={taller.id} className="rounded-3xl border border-white/70 bg-white/70 overflow-hidden">
+            {talleresDestacados.map((taller) => {
+              const actividadRealizada = inferActividadRealizadaByFecha(taller.fecha);
+
+              return (
+              <article
+                key={taller.id}
+                className={`rounded-3xl overflow-hidden ${
+                  actividadRealizada
+                    ? "border border-zinc-200 bg-zinc-100/80"
+                    : "border border-white/70 bg-white/70"
+                }`}
+              >
                 <div className="relative w-full h-48">
                   <Image
                     src={taller.imagen}
                     alt={taller.titulo}
                     fill
-                    className="object-cover"
+                    className={`object-cover ${actividadRealizada ? "grayscale opacity-70" : ""}`}
                     sizes="(max-width: 640px) 100vw, 50vw"
                   />
                 </div>
@@ -244,19 +330,26 @@ export default function Home() {
                   <h3 className="font-display text-2xl text-zinc-900">{taller.titulo}</h3>
                   <p className="text-sm text-zinc-600 leading-relaxed mt-3">{taller.descripcion}</p>
                   <div className="mt-4 text-xs uppercase tracking-[0.2em] text-zinc-500">
-                    Proxima fecha: {taller.fecha}
+                    {actividadRealizada ? "Fecha" : "Proxima fecha"}: {taller.fecha}
                   </div>
                   <div className="mt-5">
-                    <Link
-                      href={`/talleres/${taller.id}`}
-                      className="inline-flex items-center justify-center rounded-full border border-sky-300 px-4 py-2 text-xs uppercase tracking-[0.2em] text-zinc-700 hover:bg-white/50 transition-colors"
-                    >
-                      Más información
-                    </Link>
+                    {!actividadRealizada ? (
+                      <Link
+                        href={`/talleres/${taller.id}`}
+                        className="inline-flex items-center justify-center rounded-full border border-sky-300 px-4 py-2 text-xs uppercase tracking-[0.2em] text-zinc-700 hover:bg-white/50 transition-colors"
+                      >
+                        Más información
+                      </Link>
+                    ) : (
+                      <span className="inline-flex items-center justify-center rounded-full border border-zinc-300 bg-zinc-200 px-4 py-2 text-xs uppercase tracking-[0.2em] text-zinc-700">
+                        Actividad realizada
+                      </span>
+                    )}
                   </div>
                 </div>
               </article>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
