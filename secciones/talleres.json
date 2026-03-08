@@ -32,6 +32,37 @@
       "sedes": ["Online via Zoom"],
       "homeActivo": true,
       "activo": true
+    },
+    {
+      "id": "charla-gratuita-enfermedades-autoinmunes",
+      "titulo": "Charla: Enfermedades autoinmunes: Técnicas para estar mejor",
+      "descripcion": "Una sesión pensada para personas que conviven con una enfermedad autoinmune, familiares o cualquier persona interesada en comprender mejor su salud y aprender recursos útiles para sentirse mejor.",
+      "contenidoLargo": "Las enfermedades autoinmunes pueden afectar significativamente la calidad de vida, generando síntomas físicos y emocionales que impactan el día a día. En esta charla abordaremos qué son las enfermedades autoinmunes, cómo influyen en el organismo y qué estrategias pueden ayudarnos a mejorar el bienestar general.\n\nExploraremos técnicas prácticas para reducir la inflamación, gestionar el estrés, mejorar la energía y fortalecer el sistema inmunológico desde un enfoque integral. Hablaremos de hábitos saludables, alimentación, descanso, movimiento consciente y herramientas emocionales que pueden marcar una diferencia real.\n\nUna sesión pensada para personas que conviven con una enfermedad autoinmune, familiares o cualquier persona interesada en comprender mejor su salud y aprender recursos útiles para sentirse mejor.",
+      "objetivos": [
+        "Comprender cómo la respiración influye en el sistema nervioso y en los procesos inflamatorios.",
+        "Conectar con el cuerpo a través de técnicas de respiración consciente.",
+        "Aprender herramientas prácticas para regular el estrés y la ansiedad en el día a día.",
+        "Favorecer el equilibrio energético y el bienestar integral."
+      ],
+      "contenido": [
+        "La charla ofrece una visión holística del bienestar, abordando la conexión entre cuerpo, mente y emociones. Se explora la relación entre el sistema nervioso, la gestión del estrés y la salud integral, incorporando prácticas conscientes de respiración y regulación emocional. Además, se trabajan conceptos de positividad, armonía interna y equilibrio energético, junto con pautas básicas de alimentación consciente, descanso y hábitos saludables que favorecen la vitalidad."
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 15,
+      "fecha": "5 de marzo",
+      "hora": "19:00 hrs.",
+      "duracion": "60 min.",
+      "modalidad": "Vía streaming (Zoom)",
+      "instructor": "Prof. Cecilia Uzcategui",
+      "bioInstructor": "Expositora en Desarrollo Humano con mas de 30 años de experiencia en meditación y filosofía yóguica.",
+      "precio": "$0 CLP",
+      "gratuita": true,
+      "formularioRegistro": "https://docs.google.com/forms/d/e/1FAIpQLSeC5Wqj71ytLcXww8ldHGEjBqepDY4iQ2duDpnNOxo-pUJo8A/viewform",
+      "imagen": "https://images.unsplash.com/photo-1518708909080-704599b19972?w=600&h=400&fit=crop",
+      "sedes": ["Online via Zoom"],
+      "homeActivo": true,
+      "activo": true
     }
   ]
 }

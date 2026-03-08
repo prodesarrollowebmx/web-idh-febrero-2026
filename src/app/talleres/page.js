@@ -24,7 +24,7 @@ export const metadata = {
 };
 
 export default function TalleresPage() {
-  // Filtrar solo talleres activos
+  // Filtrar solo talleres activos (incluye actividades ya realizadas)
   const talleresActivos = talleresData.cursos.filter((taller) => taller.activo);
 
   return (

@@ -3,9 +3,61 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import talleresData from "../../../../secciones/talleres.json";
 
+const MONTHS_BY_NAME = {
+  enero: 0,
+  febrero: 1,
+  marzo: 2,
+  abril: 3,
+  mayo: 4,
+  junio: 5,
+  julio: 6,
+  agosto: 7,
+  septiembre: 8,
+  setiembre: 8,
+  octubre: 9,
+  noviembre: 10,
+  diciembre: 11,
+};
+
+function normalizeSpanishText(value = "") {
+  return value
+    .toString()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
+function isPastDate(fecha = "") {
+  const normalizedFecha = normalizeSpanishText(fecha);
+  const match = normalizedFecha.match(/(\d{1,2})\s+de\s+([a-z]+)(?:\s+de\s+(\d{4}))?/);
+
+  if (!match) {
+    return false;
+  }
+
+  const day = Number.parseInt(match[1], 10);
+  const month = MONTHS_BY_NAME[match[2]];
+  const year = match[3] ? Number.parseInt(match[3], 10) : new Date().getFullYear();
+
+  if (!Number.isInteger(day) || month === undefined || !Number.isInteger(year)) {
+    return false;
+  }
+
+  const activityDate = new Date(year, month, day);
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+  return activityDate < today;
+}
+
+function isTallerDisponible(taller) {
+  return Boolean(taller?.activo) && !isPastDate(taller?.fecha);
+}
+
 export async function generateMetadata({ params }) {
   const { id } = await params;
-  const taller = talleresData.cursos.find((item) => item.id === id && item.activo);
+  const taller = talleresData.cursos.find((item) => item.id === id && isTallerDisponible(item));
 
   if (!taller) {
     return {
@@ -38,7 +90,7 @@ export async function generateMetadata({ params }) {
 
 export function generateStaticParams() {
   return (talleresData.cursos || [])
-    .filter((taller) => taller?.activo)
+    .filter((taller) => isTallerDisponible(taller))
     .map((taller) => ({ id: taller.id }));
 }
 
@@ -46,7 +98,7 @@ export default async function TallerDetailPage({ params }) {
   const { id } = await params;
   const taller = talleresData.cursos.find((t) => t.id === id);
 
-  if (!taller) {
+  if (!taller || !isTallerDisponible(taller)) {
     notFound();
   }
 
