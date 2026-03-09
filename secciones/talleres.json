@@ -70,6 +70,40 @@
       "sedes": ["Compañia 1516"],
       "homeActivo": true,
       "activo": true
+    },
+    {
+      "id": "taller-mindfulness-v",
+      "titulo": "Volver a practicar la presencia",
+      "descripcion": "Herramientas de Mindfulness para la vida diaria. El presente es el único momento donde la vida sucede.",
+      "contenidoLargo": "Practicar la presencia y el mindfulness mejora el bienestar emocional: reduce la ansiedad y episodios de depresión leve, aumenta la satisfacción y el bienestar general, y ayuda a disminuir el estrés percibido mientras fortalece la gestión emocional.",
+      "objetivos": [
+        "desarrollar la capacidad de estar presente en la experiencia cotidiana",
+        "reducir los niveles de ansiedad y estrés percibido",
+        "aumentar el bienestar general y la satisfacción vital",
+        "fortalecer la gestión y regulación emocional"
+      ],
+      "contenido": [
+        "introducción a la presencia y fundamentos del mindfulness",
+        "practicas básicas de atención plena en la respiración y el cuerpo",
+        "técnicas para gestionar el estrés y regular las emociones",
+        "integración del mindfulness en la vida cotidiana"
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 20,
+      "fecha": "20 de marzo, 26 de marzo y 2 de abril",
+      "hora": "19:30 hrs.",
+      "duracion": "3 sesiones",
+      "modalidad": "Presencial y Online",
+      "instructor": "Prof. Marcela Neculman Soto",
+      "bioInstructor": "Profesora de terapia cognitiva basada en Mindfulness UAE y Oxford Mindfulness Foundation 2025.",
+      "precio": "Consultar precio",
+      "gratuita": false,
+      "formularioRegistro": "",
+      "imagen": "https://cdn.idhyoga.com/mindfulness-v-2026.jpeg",
+      "sedes": ["Vergara 644 y Online"],
+      "homeActivo": true,
+      "activo": true
     }
   ]
 }
