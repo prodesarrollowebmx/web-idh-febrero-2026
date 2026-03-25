@@ -11,6 +11,8 @@ import agendaData from "../../secciones/home/agenda.json";
 import contactoData from "../../secciones/home/contacto.json";
 import ContactoForm from "../components/ContactoForm";
 
+export const dynamic = "force-dynamic";
+
 const MONTHS_BY_NAME = {
   enero: 0,
   febrero: 1,
