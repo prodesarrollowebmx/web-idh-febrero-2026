@@ -104,6 +104,47 @@
       "sedes": ["Vergara 644 y Online"],
       "homeActivo": true,
       "activo": true
+    },
+    {
+      "id": "taller-abrazando-el-cambio",
+      "titulo": "Abrazando el cambio - Inteligencia del corazón",
+      "descripcion": "Herramientas para sanar el cuerpo, vivir la tranquilidad y estar en conexión.",
+      "contenidoLargo": "Herramientas para sanar el cuerpo, vivir la tranquilidad y estar en conexión implican un camino consciente hacia el equilibrio integral entre mente, cuerpo y espíritu, donde cada práctica adoptada se convierte en un puente hacia el bienestar profundo. A través de hábitos como la respiración consciente, la meditación, el movimiento corporal y la alimentación equilibrada, es posible reconectar con uno mismo, liberar tensiones acumuladas y permitir que el cuerpo recupere su capacidad natural de sanación.",
+      "objetivos": [
+        "Comprender la estructura y funcionamiento del cerebro, incluyendo el sistema reticular, los hemisferios cerebrales y las ondas del pensamiento, para reconocer su influencia en la percepción y conducta.",
+        "Identificar y transformar creencias limitantes mediante el entendimiento de los procesos mentales y su impacto en la realidad personal.",
+        "Explorar la relación entre la materia, las moléculas, los átomos y las posibilidades de creación, desarrollando una visión integral de la realidad.",
+        "Desarrollar la conciencia del corazón y la coherencia emocional, integrando herramientas de superación que promuevan bienestar, equilibrio y conexión interna."
+      ],
+      "contenido": [
+        "El cerebro y sus estructuras",
+        "Sistema reticular",
+        "Las creencias limitantes",
+        "Los hemisferios cerebrales",
+        "Las ondas del pensamiento",
+        "Materia, moléculas y los átomos",
+        "Las posibilidades de creación",
+        "El corazón y sus características",
+        "Conciencia del corazón",
+        "Coherencia",
+        "Herramientas de superación"
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 20,
+      "fecha": "13 de abril y 14 de abril.",
+      "hora": "19:00 hrs.",
+      "duracion": "2 sesiones",
+      "modalidad": "Presencial",
+      "instructor": "",
+      "bioInstructor": "",
+      "precio": "Consultar precio",
+      "gratuita": false,
+      "formularioRegistro": "",
+      "imagen": "https://cdn.idhyoga.com/talleres/abrazando-el-cambio.jpeg",
+      "sedes": ["Compañia 1516"],
+      "homeActivo": true,
+      "activo": true
     }
   ]
 }
