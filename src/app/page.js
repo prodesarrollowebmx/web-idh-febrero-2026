@@ -3,6 +3,7 @@ import Image from "next/image";
 import TestimoniosCarousel from "../components/TestimoniosCarousel";
 import talleresData from "../../secciones/talleres.json";
 import heroData from "../../secciones/home/hero.json";
+import bannerData from "../../secciones/home/banner.json";
 import estadisticasData from "../../secciones/home/estadisticas.json";
 import clasesData from "../../secciones/home/clases.json";
 import diplomadoData from "../../secciones/home/diplomado.json";
@@ -196,6 +197,43 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {bannerData.activo !== false && (
+        <section className="max-w-6xl mx-auto px-4 pb-4">
+          <div className="rounded-3xl bg-[#2c4a6b] px-6 py-6 md:px-10 md:py-7 text-white text-center">
+            {bannerData.imagen && (
+              <div className="relative w-full h-44 md:h-56 rounded-2xl overflow-hidden mb-6">
+                <Image
+                  src={bannerData.imagen}
+                  alt={bannerData.imagenAlt || bannerData.titulo}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                />
+              </div>
+            )}
+            <p className="text-xs uppercase tracking-[0.3em] text-white/70">{bannerData.etiqueta}</p>
+            <h2 className="font-display text-2xl md:text-3xl mt-3">{bannerData.titulo}</h2>
+            {bannerData.contenido && (
+              <p className="mt-4 text-sm md:text-base text-white/85 max-w-3xl mx-auto leading-relaxed">
+                {bannerData.contenido}
+              </p>
+            )}
+            {bannerData.cta?.url && bannerData.cta?.texto && (
+              <div className="mt-6">
+                <a
+                  href={bannerData.cta.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex rounded-full bg-white px-6 py-3 text-sm uppercase tracking-[0.2em] text-[#2c4a6b]"
+                >
+                  {bannerData.cta.texto}
+                </a>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
 
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
