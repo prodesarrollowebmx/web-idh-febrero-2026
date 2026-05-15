@@ -3,6 +3,76 @@
   "descripcion": "Programas intensivos para profundizar en areas especificas de la practica. Cupos limitados y acompanamiento cercano.",
   "cursos": [
     {
+      "id": "master-class-flexibilidad",
+      "titulo": "Master Class Flexibilidad",
+      "descripcion": "Mejora tu movilidad, fortalece tu cuerpo y aprende herramientas para desarrollar una postura sana y prevenir lesiones a través del trabajo consciente de flexibilidad.",
+      "contenidoLargo": "Esta master class está diseñada para todas las personas interesadas en mejorar su flexibilidad, movilidad y bienestar corporal de manera segura y consciente.\n\nDurante la sesión trabajaremos herramientas prácticas orientadas a desarrollar una postura saludable, aumentar la movilidad articular y fortalecer la musculatura para evitar lesiones. A través de ejercicios guiados y técnicas corporales, aprenderás cómo cuidar tu cuerpo y potenciar su rendimiento en la vida diaria o en la práctica física.\n\nUna experiencia enfocada en el movimiento consciente, la conexión corporal y el fortalecimiento integral.",
+      "objetivos": [
+        "Mejorar la flexibilidad y movilidad corporal.",
+        "Aprender hábitos y técnicas para mantener una postura sana.",
+        "Fortalecer músculos y articulaciones para prevenir lesiones.",
+        "Desarrollar mayor conciencia y conexión corporal."
+      ],
+      "contenido": [
+        "Postura sana.",
+        "Más movilidad.",
+        "Evitar lesiones.",
+        "Músculos fuertes."
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 25,
+      "fecha": "23 de mayo",
+      "hora": "11:30",
+      "duracion": "90 min.",
+      "modalidad": "Presencial",
+      "instructor": "Prof. Isabel Sánchez",
+      "bioInstructor": "Bailarina profesional, terapeuta corporal y masoterapeuta.",
+      "precio": "Consultar",
+      "gratuita": false,
+      "formularioRegistro": "",
+      "imagen": "https://cdn.idhyoga.com/talleres/master-class-23-5-2026.jpeg",
+      "sedes": ["Vergara 644 "],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
+      "id": "taller-chi-kung-armonia-interior",
+      "titulo": "Taller Teórico Práctico de Chi Kung y la Armonía Interior",
+      "descripcion": "Crear tu propio espacio de paz depende de ti. Este taller te entrega herramientas para armonizar mente, cuerpo y espíritu a través de prácticas de Chi Kung, respiración consciente y meditación.",
+      "contenidoLargo": "En este taller teórico práctico exploraremos distintas herramientas orientadas al bienestar integral y la armonía interior desde la mirada del Chi Kung y la medicina china.\n\nA través de ejercicios conscientes, respiración y meditación, aprenderás prácticas que favorecen el equilibrio energético, la relajación y la conexión interna.\n\nEl taller incluye técnicas de automasaje, ejercicios sanadores, respiración ósea y cultivación de la armonía interior mediante una primera forma de danza estilo Yangjia Michuan. Además, trabajaremos meditaciones con sonidos interiores y sonrisa interior, junto con el estudio de las energías innatas y heredadas.\n\nUna experiencia orientada a todas las personas interesadas en desarrollar bienestar físico, mental y espiritual en un ambiente de aprendizaje y conexión.",
+      "objetivos": [
+        "Aprender herramientas prácticas para armonizar mente, cuerpo y espíritu.",
+        "Conocer técnicas básicas de Chi Kung orientadas al bienestar integral.",
+        "Desarrollar la conexión interior a través de la respiración y la meditación.",
+        "Favorecer el equilibrio energético y la relajación consciente."
+      ],
+      "contenido": [
+        "Automasaje.",
+        "Ejercicios sanadores.",
+        "Respiración ósea.",
+        "Cultivación de la armonía interior con una primera forma de danza estilo Yangjia Michuan.",
+        "Meditación con sonidos interiores y sonrisa interior.",
+        "Las energías innatas y heredadas."
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 25,
+      "fecha": "30 de mayo",
+      "hora": "13:00 hrs.",
+      "duracion": "120 min.",
+      "modalidad": "Presencial",
+      "instructor": "Prof. Patricia Sepúlveda",
+      "bioInstructor": "Terapeuta en Medicina China e instructora de Chi Kung, Tai Chi y Yoga.",
+      "precio": "Consultar precio",
+      "gratuita": false,
+      "formularioRegistro": "",
+      "imagen": "https://cdn.idhyoga.com/talleres/chikung-30-5-2026.jpeg",
+      "sedes": ["Vergara 644 "],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
       "id": "charla-gratuita-enfermedades-autoinmunes",
       "titulo": "Charla: Enfermedades autoinmunes: Técnicas para estar mejor",
       "descripcion": "Una sesión pensada para personas que conviven con una enfermedad autoinmune, familiares o cualquier persona interesada en comprender mejor su salud y aprender recursos útiles para sentirse mejor.",
