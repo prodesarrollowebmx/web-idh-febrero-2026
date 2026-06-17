@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.idhyoga.com").replace(/\/$/, "");
+const socialImage = `${siteUrl}/logo-idh.png`;
 
 const displayFont = Cormorant_Garamond({
   variable: "--font-display",
@@ -45,11 +46,20 @@ export const metadata = {
     siteName: "IDH Yoga",
     title: "IDH Yoga | Escuela y Comunidad",
     description: "Clases, talleres, asesorías, diplomado y espacios disponibles con enfoque integral de bienestar.",
+    images: [
+      {
+        url: socialImage,
+        width: 1200,
+        height: 630,
+        alt: "IDH Yoga | Escuela y Comunidad",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "IDH Yoga | Escuela y Comunidad",
     description: "Clases, talleres, asesorías, diplomado y espacios disponibles con enfoque integral de bienestar.",
+    images: [socialImage],
   },
 };
 
