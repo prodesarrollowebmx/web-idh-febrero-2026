@@ -117,6 +117,7 @@ export default async function TallerDetailPage({ params }) {
             alt={taller.titulo}
             fill
             className="object-cover"
+            style={taller.imagenPosicion ? { objectPosition: taller.imagenPosicion } : undefined}
             priority
             sizes="100vw"
           />

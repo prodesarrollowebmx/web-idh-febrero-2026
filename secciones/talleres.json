@@ -3,6 +3,40 @@
   "descripcion": "Programas intensivos para profundizar en areas especificas de la practica. Cupos limitados y acompanamiento cercano.",
   "cursos": [
     {
+      "id": "yoga-y-meditacion-dia-internacional-del-yoga",
+      "titulo": "Yoga y meditación - Día Internacional del Yoga",
+      "descripcion": "Encuentro especial para celebrar el Día Internacional del Yoga con práctica de Hatha Yoga, meditación y filosofía del yoga.",
+      "contenidoLargo": "En este encuentro conmemorativo celebraremos el Día Internacional del Yoga con una sesión especial dedicada al bienestar integral, la calma y la conexión consciente.\n\nLa actividad incluye una práctica de Hatha Yoga guiada por Andrea Acebedo y Jaqueline Areyuna, junto con un espacio de meditación y una charla de filosofía del yoga a cargo del Prof. Pedro Weinberguer.\n\nSerá una instancia abierta para compartir, practicar y profundizar en los fundamentos del yoga desde una mirada accesible y contemplativa, en un ambiente de aprendizaje y encuentro.",
+      "objetivos": [
+        "Celebrar el Día Internacional del Yoga con una práctica abierta y consciente.",
+        "Explorar el Hatha Yoga como vía de equilibrio físico y mental.",
+        "Practicar meditación para cultivar presencia y calma interior.",
+        "Reflexionar sobre la filosofía del yoga y su aplicación en la vida cotidiana."
+      ],
+      "contenido": [
+        "Práctica de Hatha Yoga con Andrea Acebedo y Jaqueline Areyuna.",
+        "Meditación guiada para la calma y la atención plena.",
+        "Charla de filosofía del yoga con el Prof. Pedro Weinberguer."
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 25,
+      "fecha": "20 de junio",
+      "hora": "10:00 hrs.",
+      "duracion": "Por confirmar",
+      "modalidad": "Presencial",
+      "instructor": "Andrea Acebedo, Jaqueline Areyuna y Prof. Pedro Weinberguer",
+      "bioInstructor": "Andrea Acebedo y Jaqueline Areyuna guían la práctica de Hatha Yoga, y el Prof. Pedro Weinberguer comparte una charla de meditación y filosofía del yoga.",
+      "precio": "$0 CLP",
+      "gratuita": true,
+      "formularioRegistro": "https://forms.gle/XyEvZ83kiGHtz9be6",
+      "imagen": "https://cdn.idhyoga.com/especiales/actividad-sabado.jpeg",
+      "imagenPosicion": "center 70%",
+      "sedes": ["Vergara 644 "],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
       "id": "master-class-flexibilidad",
       "titulo": "Master Class Flexibilidad",
       "descripcion": "Mejora tu movilidad, fortalece tu cuerpo y aprende herramientas para desarrollar una postura sana y prevenir lesiones a través del trabajo consciente de flexibilidad.",

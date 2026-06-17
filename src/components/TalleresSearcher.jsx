@@ -178,6 +178,7 @@ export default function TalleresSearcher({ talleres }) {
                   alt={taller.titulo}
                   fill
                   className={`object-cover ${actividadRealizada ? "grayscale opacity-70" : ""}`}
+                  style={taller.imagenPosicion ? { objectPosition: taller.imagenPosicion } : undefined}
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
