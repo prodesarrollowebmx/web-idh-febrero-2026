@@ -1,12 +1,42 @@
 {
   "activo": true,
-  "etiqueta": "Gift Card",
-  "titulo": "Regala bienestar este Día de la Madre, Gift Card",
-  "contenido": "Sorprende a mamá con un regalo diferente: tiempo para ella, para conectar y recargar energías. Un regalo con sentido, que nutre cuerpo y mente, Escríbenos al +569 77987629 para reservar la tuya. ¡Cupos limitados!",
-  "imagen": "https://cdn.idhyoga.com/regala-yoga.jpeg",
-  "imagenAlt": "Gift Card Día de la Madre",
-  "cta": {
-    "texto": "Más información",
-    "url": "https://www.instagram.com/p/DXrxx5Sgshh/?igsh=MXVvZWNvdXIxZXN0aw%3D%3D"
-  }
+  "velocidadRotacion": 5000,
+  "anuncios": [
+    {
+      "etiqueta": "Promoción especial",
+      "titulo": "¡Solo por ésta semana!",
+      "contenido": "Inscríbete en nuestras clases de yoga y obtén $10.000 de descuento en cualquier plan mensual.",
+      "imagen": "https://cdn.idhyoga.com/carousel/prom-jun-2026.jpeg",
+      "imagenAlt": "promoción esta semana",
+      "imagenConfig": {
+        "objectFit": "cover",
+        "objectPositionMovil": "center",
+        "objectPositionDesktop": "top 10% left 50%",
+        "alturaMovil": "h-56",
+        "alturaDesktop": "h-10"
+      },
+      "cta": {
+        "texto": "Más información",
+        "url": "/contacto"
+      }
+    },
+        {
+      "etiqueta": "En éste mes de junio",
+      "titulo": "Oferta especial de invierno",
+      "contenido": "¡Inscríbete en cualquiera de nuestros cursos y obtén matrícula gratis!.",
+      "imagen": "https://cdn.idhyoga.com/carousel/of-inv-jun-2026.jpeg",
+      "imagenAlt": "oferta especial de invierno",
+      "imagenConfig": {
+        "objectFit": "cover",
+        "objectPositionMovil": "center",
+        "objectPositionDesktop": "top 20% left 50%",
+        "alturaMovil": "h-56",
+        "alturaDesktop": "h-10"
+      },
+      "cta": {
+        "texto": "Más información",
+        "url": "/contacto"
+      }
+    }
+  ]
 }
