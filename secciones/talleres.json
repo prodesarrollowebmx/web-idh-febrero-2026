@@ -3,6 +3,41 @@
   "descripcion": "Programas intensivos para profundizar en areas especificas de la practica. Cupos limitados y acompanamiento cercano.",
   "cursos": [
     {
+      "id": "taller-bano-de-sonido-y-meditacion",
+      "titulo": "Taller Baño de Sonido y Meditación",
+      "descripcion": "Una experiencia inmersiva para regular el estrés, calmar la mente y reconectar con el bienestar a través del sonido terapéutico y la meditación guiada.",
+      "contenidoLargo": "Este taller teórico-práctico está orientado a personas que desean pausar el ritmo cotidiano y cultivar estados de mayor calma, presencia y equilibrio interno.\n\nDurante la jornada se integrarán ejercicios suaves de respiración, preparación corporal y una práctica de meditación guiada, seguida de un baño de sonido para favorecer la relajación profunda y la armonización energética.\n\nLa actividad será guiada por Renato Tolosa, terapeuta en gemoterapia e instructor de yoga y meditación, junto a Patricia Sepúlveda, terapeuta en medicina china e instructora de Chi Kung, Tai Chi y Yoga. Ambos compartirán herramientas aplicables para sostener el bienestar en la vida diaria.",
+      "objetivos": [
+        "Disminuir el estrés físico y mental mediante técnicas de respiración y meditación.",
+        "Vivir una experiencia de relajación profunda con baño de sonido.",
+        "Aprender prácticas simples para cultivar calma y equilibrio en el día a día.",
+        "Favorecer la conexión cuerpo-mente desde una mirada integrativa."
+      ],
+      "contenido": [
+        "Apertura y preparación corporal consciente.",
+        "Respiración guiada para centrar la atención.",
+        "Meditación guiada para calma y presencia.",
+        "Baño de sonido terapéutico.",
+        "Cierre e integración de la experiencia."
+      ],
+      "requisitos": "Ropa cómoda, hidratación y, si deseas, manta o cojín personal. No se requiere experiencia previa.",
+      "nivel": "Todos",
+      "cupos": 24,
+      "fecha": "31 de julio",
+      "hora": "17:00 hrs.",
+      "duracion": "120 min.",
+      "modalidad": "Presencial",
+      "instructor": "Renato Tolosa y Prof. Patricia Sepúlveda",
+      "bioInstructor": "Renato Tolosa es terapeuta en gemoterapia e instructor de yoga y meditación. Patricia Sepúlveda es terapeuta en medicina china e instructora de Chi Kung, Tai Chi y Yoga.",
+      "precio": "Consultar precio",
+      "gratuita": false,
+      "formularioRegistro": "",
+      "imagen": "https://cdn.idhyoga.com/talleres/taller-sonido-meditacion.jpeg",
+      "sedes": ["Vergara 644 "],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
       "id": "yoga-y-meditacion-dia-internacional-del-yoga",
       "titulo": "Yoga y meditación - Día Internacional del Yoga",
       "descripcion": "Encuentro especial para celebrar el Día Internacional del Yoga con práctica de Hatha Yoga, meditación y filosofía del yoga.",
