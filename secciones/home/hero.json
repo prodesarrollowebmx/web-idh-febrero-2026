@@ -16,13 +16,15 @@
   ],
   "claseDestacada": {
     "etiqueta": "Clase del día",
-    "nombre": "Pilates",
-    "descripcion": "Secuencia fluida para despertar el cuerpo y ordenar la mente.",
-    "horario": "Lunes, 18:00 hrs.",
-    "sala": "Compañía 1516",
+    "nombre": "Clase gratuita - Día Nacional del Yoga",
+    "descripcion": "Elige entre Hatha Yoga o Vinyasa Yoga en una celebración abierta para toda la comunidad.",
+    "horario": "Miércoles 4 de noviembre, 19:00 hrs.",
+    "sala": "Vergara 644",
     "duracion": "60 min"
   },
-  "anuncio": "Nuevo ciclo de diplomado de Instructor de Yoga: Marzo 2026",
-  "imagenHero": "https://images.unsplash.com/photo-1579454566790-f9e5697ddf36?w=800&h=1000&fit=crop",
+  "anuncio": "Día Nacional del Yoga: clase gratuita este miércoles 4 de noviembre a las 19:00 hrs.",
+  "anuncioCtaTexto": "Más información",
+  "anuncioCtaUrl": "/talleres/clase-gratuita-dia-nacional-del-yoga",
+  "imagenHero": "https://images.unsplash.com/photo-1683056255281-e52a141924f0??w=800&h=1000&fit=crop",
   "imagenSecundaria": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop"
 }

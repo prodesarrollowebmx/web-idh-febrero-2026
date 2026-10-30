@@ -193,7 +193,17 @@ export default function Home() {
               </div>
             </div>
             <div className="absolute -bottom-8 -left-8 glass-card rounded-3xl px-6 py-4 text-sm text-zinc-600">
-              {heroData.anuncio}
+              <p>
+                {heroData.anuncio}{" "}
+                {heroData.anuncioCtaUrl && (
+                  <Link
+                    href={heroData.anuncioCtaUrl}
+                    className="font-medium underline underline-offset-4 hover:text-zinc-800"
+                  >
+                    {heroData.anuncioCtaTexto || "Más información"}
+                  </Link>
+                )}
+              </p>
             </div>
           </div>
         </div>

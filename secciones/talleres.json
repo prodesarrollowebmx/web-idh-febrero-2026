@@ -3,6 +3,40 @@
   "descripcion": "Programas intensivos para profundizar en areas especificas de la practica. Cupos limitados y acompanamiento cercano.",
   "cursos": [
     {
+      "id": "clase-gratuita-dia-nacional-del-yoga",
+      "titulo": "Clase gratuita - Día Nacional del Yoga",
+      "descripcion": "Actividad especial para celebrar el Día Nacional del Yoga con una clase gratuita en modalidad simultánea de Hatha Yoga y Vinyasa Yoga.",
+      "contenidoLargo": "Celebraremos el Día Nacional del Yoga con una clase gratuita y abierta a la comunidad, pensada para compartir, practicar y conectar desde el movimiento consciente.\n\nDurante la actividad podrás elegir entre dos estilos que se desarrollarán de manera simultánea: Hatha Yoga o Vinyasa Yoga, según tu interés y experiencia.\n\nSerá una instancia para disfrutar de la práctica en un ambiente acogedor, promover el bienestar integral y acercar el yoga a más personas.",
+      "objetivos": [
+        "Celebrar el Día Nacional del Yoga con una práctica abierta y gratuita.",
+        "Ofrecer alternativas de práctica para distintos intereses mediante Hatha Yoga y Vinyasa Yoga.",
+        "Fomentar el bienestar físico, mental y emocional a través del yoga.",
+        "Invitar a nuevas personas a conocer y experimentar la práctica en comunidad."
+      ],
+      "contenido": [
+        "Bienvenida e introducción a la jornada.",
+        "Clase simultánea de Hatha Yoga.",
+        "Clase simultánea de Vinyasa Yoga.",
+        "Cierre y agradecimientos."
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": "+50",
+      "fecha": "4 de noviembre",
+      "hora": "19:00 hrs.",
+      "duracion": "60 min.",
+      "modalidad": "Presencial",
+      "instructor": "Equipo IDH Yoga",
+      "bioInstructor": "Equipo de profesores de IDH Yoga para las líneas de Hatha Yoga y Vinyasa Yoga.",
+      "precio": "$0 CLP",
+      "gratuita": true,
+      "formularioRegistro": "https://docs.google.com/forms/d/e/1FAIpQLScWJKKOemmR73obD3kbjB3aSfgsOMV3d1xzfZjDy_Ev40Hhgw/viewform",
+      "imagen": "https://images.unsplash.com/photo-1683056255281-e52a141924f0??w=800&h=1000&fit=crop",
+      "sedes": ["Por confirmar"],
+      "homeActivo": true,
+      "activo": true
+    },
+    {
       "id": "taller-bano-de-sonido-y-meditacion",
       "titulo": "Taller Baño de Sonido y Meditación",
       "descripcion": "Una experiencia inmersiva para regular el estrés, calmar la mente y reconectar con el bienestar a través del sonido terapéutico y la meditación guiada.",

@@ -3,6 +3,24 @@
   "velocidadRotacion": 5000,
   "anuncios": [
     {
+      "etiqueta": "Actividad gratuita",
+      "titulo": "Día Nacional del Yoga - Miércoles 4 de noviembre, 19:00 hrs.",
+      "contenido": "Te invitamos a celebrar con una clase gratuita donde puedes elegir entre Hatha Yoga y Vinyasa Yoga, ambas en horario simultáneo.",
+      "imagen": "https://images.unsplash.com/photo-1683056255281-e52a141924f0??w=800&h=1000&fit=crop",
+      "imagenAlt": "clase gratuita dia nacional del yoga",
+      "imagenConfig": {
+        "objectFit": "cover",
+        "objectPositionMovil": "center",
+        "objectPositionDesktop": "center 60%",
+        "alturaMovil": "h-56",
+        "alturaDesktop": "h-10"
+      },
+      "cta": {
+        "texto": "Ver actividad",
+        "url": "/talleres/clase-gratuita-dia-nacional-del-yoga"
+      }
+    },
+    {
       "etiqueta": "Promoción especial",
       "titulo": "¡Solo por ésta semana!",
       "contenido": "Inscríbete en nuestras clases de yoga y obtén $10.000 de descuento en cualquier plan mensual.",
