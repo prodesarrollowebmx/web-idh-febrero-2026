@@ -4,56 +4,20 @@
   "anuncios": [
     {
       "etiqueta": "Actividad gratuita",
-      "titulo": "Día Nacional del Yoga - Miércoles 4 de noviembre, 19:00 hrs.",
-      "contenido": "Te invitamos a celebrar con una clase gratuita donde puedes elegir entre Hatha Yoga y Vinyasa Yoga, ambas en horario simultáneo.",
-      "imagen": "https://images.unsplash.com/photo-1683056255281-e52a141924f0??w=800&h=1000&fit=crop",
-      "imagenAlt": "clase gratuita dia nacional del yoga",
+      "titulo": "Clase gratuita de Yoga Flow o Pilates - Jueves 12 de noviembre, 19:00 hrs.",
+      "contenido": "Te invitamos a una clase abierta para toda la comunidad, con la opción de practicar Yoga Flow o Pilates en una sesión gratuita y relajante.",
+      "imagen": "https://images.unsplash.com/photo-1787647090008-4b88ffc977b7?",
+      "imagenAlt": "clase gratuita de yoga flow o pilates",
       "imagenConfig": {
         "objectFit": "cover",
         "objectPositionMovil": "center",
-        "objectPositionDesktop": "center 60%",
+        "objectPositionDesktop": "center 50%",
         "alturaMovil": "h-56",
         "alturaDesktop": "h-10"
       },
       "cta": {
         "texto": "Ver actividad",
-        "url": "/talleres/clase-gratuita-dia-nacional-del-yoga"
-      }
-    },
-    {
-      "etiqueta": "Promoción especial",
-      "titulo": "¡Solo por ésta semana!",
-      "contenido": "Inscríbete en nuestras clases de yoga y obtén $10.000 de descuento en cualquier plan mensual.",
-      "imagen": "https://cdn.idhyoga.com/carousel/prom-jun-2026.jpeg",
-      "imagenAlt": "promoción esta semana",
-      "imagenConfig": {
-        "objectFit": "cover",
-        "objectPositionMovil": "center",
-        "objectPositionDesktop": "top 10% left 50%",
-        "alturaMovil": "h-56",
-        "alturaDesktop": "h-10"
-      },
-      "cta": {
-        "texto": "Más información",
-        "url": "/contacto"
-      }
-    },
-        {
-      "etiqueta": "En éste mes de junio",
-      "titulo": "Oferta especial de invierno",
-      "contenido": "¡Inscríbete en cualquiera de nuestros cursos y obtén matrícula gratis!.",
-      "imagen": "https://cdn.idhyoga.com/carousel/of-inv-jun-2026.jpeg",
-      "imagenAlt": "oferta especial de invierno",
-      "imagenConfig": {
-        "objectFit": "cover",
-        "objectPositionMovil": "center",
-        "objectPositionDesktop": "top 20% left 50%",
-        "alturaMovil": "h-56",
-        "alturaDesktop": "h-10"
-      },
-      "cta": {
-        "texto": "Más información",
-        "url": "/contacto"
+        "url": "/talleres/clase-gratuita-yoga-flow-o-pilates"
       }
     }
   ]

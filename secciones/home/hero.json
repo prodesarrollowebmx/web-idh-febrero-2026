@@ -16,15 +16,15 @@
   ],
   "claseDestacada": {
     "etiqueta": "Clase del día",
-    "nombre": "Clase gratuita - Día Nacional del Yoga",
-    "descripcion": "Elige entre Hatha Yoga o Vinyasa Yoga en una celebración abierta para toda la comunidad.",
-    "horario": "Miércoles 4 de noviembre, 19:00 hrs.",
+    "nombre": "Clase gratuita de Yoga Flow o Pilates",
+    "descripcion": "Sesión abierta para mover el cuerpo, activar la energía y encontrar calma a través de dos opciones de práctica: Yoga Flow o Pilates.",
+    "horario": "Jueves 12 de noviembre, 19:00 hrs.",
     "sala": "Vergara 644",
     "duracion": "60 min"
   },
-  "anuncio": "Día Nacional del Yoga: clase gratuita este miércoles 4 de noviembre a las 19:00 hrs.",
+  "anuncio": "Clase gratuita de Yoga Flow o Pilates: jueves 12 de noviembre, 19:00 hrs.",
   "anuncioCtaTexto": "Más información",
-  "anuncioCtaUrl": "/talleres/clase-gratuita-dia-nacional-del-yoga",
-  "imagenHero": "https://images.unsplash.com/photo-1683056255281-e52a141924f0??w=800&h=1000&fit=crop",
+  "anuncioCtaUrl": "/talleres/clase-gratuita-yoga-flow-o-pilates",
+  "imagenHero": "https://images.unsplash.com/photo-1787647090008-4b88ffc977b7?",
   "imagenSecundaria": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop"
 }

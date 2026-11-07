@@ -318,6 +318,40 @@
       "sedes": ["Compañia 1516"],
       "homeActivo": true,
       "activo": true
+    },
+    {
+      "id": "clase-gratuita-yoga-flow-o-pilates",
+      "titulo": "Clase gratuita de Yoga Flow o Pilates",
+      "descripcion": "Sesión abierta para mover el cuerpo, activar la energía y encontrar calma a través de dos opciones de práctica: Yoga Flow o Pilates, en una clase gratuita para toda la comunidad.",
+      "contenidoLargo": "En este encuentro gratuito exploraremos dos caminos de movimiento consciente: Yoga Flow y Pilates, ambos pensados para fortalecer el cuerpo, abrir la respiración y cultivar atención plena en cada movimiento. La práctica se realizará de manera accesible y abierta, ideal para quienes buscan una experiencia de bienestar, conexión con su cuerpo y renovación energética en un ambiente cálido y acogedor.\n\nLa clase está dirigida a personas de todos los niveles que quieran vivenciar una sesión dinámica, consciente y relajante, sin necesidad de experiencia previa. Será una oportunidad para practicar en comunidad, mover el cuerpo con intención y cerrar la experiencia con un sentido de claridad y equilibrio.",
+      "objetivos": [
+        "Explorar una práctica libre y consciente a través del Yoga Flow o Pilates.",
+        "Mejorar la movilidad, la fuerza y la respiración corporal.",
+        "Reducir el estrés y favorecer la sensación de bienestar integral.",
+        "Ofrecer una experiencia accesible y comunitaria para todas las personas."
+      ],
+      "contenido": [
+        "Calentamiento y preparación corporal.",
+        "Práctica de Yoga Flow o Pilates.",
+        "Trabajo de respiración y alineación.",
+        "Estiramiento final y cierre consciente."
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": "+30",
+      "fecha": "Jueves 12 de noviembre",
+      "hora": "19:00 hrs.",
+      "duracion": "60 min.",
+      "modalidad": "Presencial",
+      "instructor": "Equipo IDH Yoga",
+      "bioInstructor": "Profesores de IDH Yoga especializados en movimiento consciente y bienestar integral.",
+      "precio": "$0 CLP",
+      "gratuita": true,
+      "formularioRegistro": "https://forms.gle/1cnSVpNVb9Dvcei18",
+      "imagen": "https://images.unsplash.com/photo-1787647090008-4b88ffc977b7?",
+      "sedes": ["Compañia 1516"],
+      "homeActivo": true,
+      "activo": true
     }
   ]
 }
