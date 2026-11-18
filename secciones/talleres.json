@@ -352,6 +352,40 @@
       "sedes": ["Compañia 1516"],
       "homeActivo": true,
       "activo": true
+    },
+    {
+      "id": "clase-yoga-budassa",
+      "titulo": "Clase Yoga Budassa",
+      "descripcion": "Clase dirigida al adulto que necesita flexibilizar el cuerpo y calmar su mente a través de una práctica consciente de Yoga Budassa.",
+      "contenidoLargo": "Una clase de Yoga Budassa orientada al adulto que desea flexibilizar el cuerpo, liberar tensiones y calmar la mente. La práctica se desarrolla de manera consciente y accesible, integrando movimiento, respiración y relajación en un ambiente acogedor.\n\nNo se requiere experiencia previa. La sesión está pensada para quienes buscan mejorar su movilidad y encontrar mayor tranquilidad física y mental.",
+      "objetivos": [
+        "Flexibilizar el cuerpo de manera segura y progresiva.",
+        "Calmar la mente mediante respiración consciente y relajación.",
+        "Disminuir tensiones físicas y favorecer el bienestar integral.",
+        "Desarrollar mayor conciencia corporal y conexión con el movimiento."
+      ],
+      "contenido": [
+        "Preparación y conexión con la respiración.",
+        "Trabajo suave de movilidad y flexibilidad.",
+        "Práctica guiada de Yoga Budassa.",
+        "Relajación y cierre consciente."
+      ],
+      "requisitos": "Ninguno. Abierto a todos los niveles.",
+      "nivel": "Todos",
+      "cupos": 25,
+      "fecha": "Jueves 19 de noviembre",
+      "hora": "19:15 hrs.",
+      "duracion": "1:20 hrs.",
+      "modalidad": "Presencial",
+      "instructor": "Juanita Khonemkamp",
+      "bioInstructor": "Docente de Yoga especializada en prácticas conscientes para el bienestar físico y mental.",
+      "precio": "$0 CLP",
+      "gratuita": true,
+      "formularioRegistro": "https://forms.gle/qgNMMYycHgmiEBGSA",
+      "imagen": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop",
+      "sedes": ["Compañía 1516"],
+      "homeActivo": true,
+      "activo": true
     }
   ]
 }

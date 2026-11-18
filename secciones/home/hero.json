@@ -16,15 +16,15 @@
   ],
   "claseDestacada": {
     "etiqueta": "Clase del día",
-    "nombre": "Clase gratuita de Yoga Flow o Pilates",
-    "descripcion": "Sesión abierta para mover el cuerpo, activar la energía y encontrar calma a través de dos opciones de práctica: Yoga Flow o Pilates.",
-    "horario": "Jueves 12 de noviembre, 19:00 hrs.",
-    "sala": "Vergara 644",
-    "duracion": "60 min"
+    "nombre": "Clase Yoga Budassa",
+    "descripcion": "Clase dirigida al adulto que necesita flexibilizar el cuerpo y calmar su mente a través de una práctica consciente de Yoga Budassa.",
+    "horario": "Jueves 19 de noviembre, 19:15 hrs.",
+    "sala": "Compañía 1516",
+    "duracion": "1:20 hrs"
   },
-  "anuncio": "Clase gratuita de Yoga Flow o Pilates: jueves 12 de noviembre, 19:00 hrs.",
+  "anuncio": "Clase Yoga Budassa: jueves 19 de noviembre, 19:15 hrs.",
   "anuncioCtaTexto": "Más información",
-  "anuncioCtaUrl": "/talleres/clase-gratuita-yoga-flow-o-pilates",
-  "imagenHero": "https://images.unsplash.com/photo-1787647090008-4b88ffc977b7?",
+  "anuncioCtaUrl": "/talleres/clase-yoga-budassa",
+  "imagenHero": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop",
   "imagenSecundaria": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop"
 }
